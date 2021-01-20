@@ -1,0 +1,10 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+- file: intros/intro
+  sections:
+    - file: intros/syllabus
+    - file: intros/schedule
+- file: contents/content
+  sections:
+    - file: contents/markdown
+    - file: contents/notebooks
