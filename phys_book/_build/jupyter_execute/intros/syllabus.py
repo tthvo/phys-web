@@ -12,6 +12,7 @@ This is a short and simplifed version of the official syllabus (created by Jamie
 - Lab Technician: **Jordan Andrews**
 - Email: physics.labs@ubc.ca
 
+
 ```{tip}
 I would suggest noting down the email! If you ever need an extesion or miss a lab, you must contact them.
 
@@ -19,10 +20,10 @@ I would suggest noting down the email! If you ever need an extesion or miss a la
 
 ## Grading Schemes
 
->
- - 16%&ensp;&emsp; Pre-lab Assignments<br>
- - 80%&ensp;&emsp;Weekly Reports<br>
- - <font color=red>4%&emsp;&emsp;Attendance</font> 
+
+- 16%&ensp;&emsp; Pre-lab Assignments<br>
+- 80%&ensp;&emsp;Weekly Reports<br>
+- <font color=red>4%&emsp;&emsp;Attendance</font> 
 
 ```{caution} Please read
 It is different from term 1. Now, attendance is mandatory. Don't worry! I will figure something out for us soon!
@@ -30,17 +31,21 @@ It is different from term 1. Now, attendance is mandatory. Don't worry! I will f
 ```
 
 ## Pre-lab Assignments
+
 - Either a canvas quiz or a written assignment in the lab manual (usually first page).
+
 - Prelab must be submitted **by 11:59 PM the night before your next scheduled lab**.
 
 ## Weekly Reports
+
 - Report must be submitted **by 11:59PM the night befor eyour next scheduled lab through Canvas**. So you have **one week** to do it!
+
 - Submitted work must be in **one combined pdf file**. Please don't send zip files or HEIC files. I can't open them on Canvas, sorry.
 
 
 ## Missing a Lab
 
-- Any labs that were missed cannot be taken late. However, these circumstances are acceptable:
+- ny labs that were missed cannot be taken late. However, these circumstances are acceptable:
     - Medical reason with valid medical document **(original copies)**.
     - Other very special cases.
 
@@ -61,7 +66,7 @@ The academic enterprise is founded on honesty, civility, and integrity.  As memb
 
 
 
-```{warning} Note
+```{warning} 
 Just don't cheat please! I trust you all!
 
 ```

@@ -1,7 +1,7 @@
 # Schedule
 
 Please find your schedule for the lab experiments below. Make sure you keep track on the dates to attend the labs.
-___
+
 
 
 |Date                    | Lab                                                     |
