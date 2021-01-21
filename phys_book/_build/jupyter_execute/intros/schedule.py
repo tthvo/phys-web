@@ -11,7 +11,7 @@ ___
 | January 25             |  Laboratory 1  Simple harmonic motion                   |
 | February 1             |  Laboratory 2  Standing waves in one dimension          |
 | February 8             |  Laboratory 3 Standing sound waves                      |
-| February 15            | No Lab (Midterm Break)                                  |
+| **February 15**            | **No Lab (Midterm Break)**                                  |
 | February 22            | Laboratory 4  Electrostatics                            |
 | March 1                |  Laboratory 5  Equipotential and electric field mapping |
 | March 8                |  Laboratory 6  Ohms law and Hydraulic Circuits          |
