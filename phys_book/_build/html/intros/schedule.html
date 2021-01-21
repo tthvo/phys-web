@@ -45,8 +45,6 @@
     <script src="../_static/copybutton.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
-    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe"
@@ -56,8 +54,8 @@
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Lab Materials" href="../contents/content.html" />
-    <link rel="prev" title="Syllabus" href="syllabus.html" />
+    <link rel="next" title="Installation Guide" href="installation.html" />
+    <link rel="prev" title="Lab Syllabus" href="syllabus.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
@@ -87,35 +85,57 @@
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
 </form>
 <nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
-    <ul class="current nav sidenav_l1">
+    <p class="caption collapsible-parent">
+ <span class="caption-text">
+  Syllabus
+ </span>
+</p>
+<ul class="nav sidenav_l1">
  <li class="toctree-l1">
   <a class="reference internal" href="syllabus.html">
-   Syllabus
+   Course Syllabus
   </a>
  </li>
+</ul>
+<p class="caption collapsible-parent">
+ <span class="caption-text">
+  Schedule
+ </span>
+</p>
+<ul class="current nav sidenav_l1">
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   Schedule
+   Date to remember
   </a>
  </li>
- <li class="toctree-l1 collapsible-parent">
-  <a class="reference internal" href="../contents/content.html">
-   Lab Materials
+</ul>
+<p class="caption collapsible-parent">
+ <span class="caption-text">
+  Setting up
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="installation.html">
+   Installation Guide
   </a>
-  <ul class="collapse-ul">
-   <li class="toctree-l2">
-    <a class="reference internal" href="../contents/markdown.html">
-     Markdown Files
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../contents/notebooks.html">
-     Content with notebooks
-    </a>
-   </li>
-  </ul>
-  <i class="fas fa-chevron-down">
-  </i>
+ </li>
+</ul>
+<p class="caption collapsible-parent">
+ <span class="caption-text">
+  Labs
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../contents/general_info.html">
+   TA Information
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../contents/lab1.html">
+   Lab 1
+  </a>
  </li>
 </ul>
 
@@ -157,9 +177,9 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/intros/schedule.md"><button type="button"
+        <a class="dropdown-buttons" href="../_sources/intros/schedule.ipynb"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
-                data-placement="left">.md</button></a>
+                data-placement="left">.ipynb</button></a>
         <!-- Download PDF via print -->
         <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
             onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
@@ -177,6 +197,23 @@
 
         <!-- Launch buttons -->
 
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/thuanGIT/phys-web.git/master?urlpath=tree/intros/schedule.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="../_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
     </div>
 
     <!-- Table of contents -->
@@ -191,6 +228,55 @@
                 
   <div class="section" id="schedule">
 <h1>Schedule<a class="headerlink" href="#schedule" title="Permalink to this headline">¶</a></h1>
+<p>Please find your schedule for the lab experiments below. Make sure you keep track on the dates to attend the labs.</p>
+<hr class="docutils" />
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="text-align:center head"><p>Date</p></th>
+<th class="text-align:center head"><p>Lab</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-align:center"><p>January 11</p></td>
+<td class="text-align:center"><p>No laboratory experiments this week</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p>January 18</p></td>
+<td class="text-align:center"><p>No laboratory experiments this week</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:center"><p>January 25</p></td>
+<td class="text-align:center"><p>Laboratory 1  Simple harmonic motion</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p>February 1</p></td>
+<td class="text-align:center"><p>Laboratory 2  Standing waves in one dimension</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:center"><p>February 8</p></td>
+<td class="text-align:center"><p>Laboratory 3 Standing sound waves</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p>February 15</p></td>
+<td class="text-align:center"><p>No Lab (Midterm Break)</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:center"><p>February 22</p></td>
+<td class="text-align:center"><p>Laboratory 4  Electrostatics</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p>March 1</p></td>
+<td class="text-align:center"><p>Laboratory 5  Equipotential and electric field mapping</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:center"><p>March 8</p></td>
+<td class="text-align:center"><p>Laboratory 6  Ohms law and Hydraulic Circuits</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p>March 15</p></td>
+<td class="text-align:center"><p>Laboratory 7  Electric and Hydraulic RC Circuits</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:center"><p>March 22</p></td>
+<td class="text-align:center"><p>Laboratory 8  Magnetic fields</p></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Each date indicates Mondays of each week.</p>
+</div>
+<p><img alt="" src="../_images/timetable.png" /></p>
 </div>
 
     <script type="text/x-thebe-config">
@@ -221,8 +307,8 @@
     
     <div class='prev-next-bottom'>
         
-    <a class='left-prev' id="prev-link" href="syllabus.html" title="previous page">Syllabus</a>
-    <a class='right-next' id="next-link" href="../contents/content.html" title="next page">Lab Materials</a>
+    <a class='left-prev' id="prev-link" href="syllabus.html" title="previous page">Lab Syllabus</a>
+    <a class='right-next' id="next-link" href="installation.html" title="next page">Installation Guide</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">

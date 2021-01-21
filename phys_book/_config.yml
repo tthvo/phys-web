@@ -5,6 +5,7 @@
 
 #######################################################################################
 # Book settings
+# These settings will be merged into the default settings
 title: PHYSICS LAB # The title of the book. Will be placed in the left navbar.
 author: Jamie Vo (TA)  # The author of the book
 copyright: "2021"  # Copyright year to be placed in the footer
@@ -23,3 +24,6 @@ only_build_toc_files: true
 # Settings for HTML
 html:
   home_page_in_navbar: false
+
+parse:
+  myst_extended_syntax: true

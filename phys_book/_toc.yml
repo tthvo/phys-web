@@ -1,10 +1,19 @@
 # Table of contents
-# Learn more at https://jupyterbook.org/customize/toc.html
+# This is the landing page
 - file: intros/intro
-  sections:
+
+- part: Syllabus
+  chapters:
     - file: intros/syllabus
+      title: Lab Syllabus
+- part: Schedule
+  chapters:
     - file: intros/schedule
-- file: contents/content
-  sections:
-    - file: contents/markdown
-    - file: contents/notebooks
+      title: Dates to remember
+- part: Setting up
+  chapters:
+    - file: intros/installation
+- part: Labs
+  chapters:
+    - file: contents/general_info
+    - file: contents/lab1
