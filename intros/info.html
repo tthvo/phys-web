@@ -73,7 +73,7 @@
         <div class="navbar-brand-box">
 <a class="navbar-brand text-wrap" href="../index.html">
   
-  <img src="../_static/ubc.png" class="logo" alt="logo">
+  <img src="../_static/logo.jpg" class="logo" alt="logo">
   
   
   <h1 class="site-logo" id="site-title">PHYSICS LAB</h1>
@@ -84,15 +84,27 @@
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
 </form>
 <nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
-    <p class="caption collapsible-parent">
+    <ul class="nav sidenav_l1">
+ <li class="toctree-l1 current active">
+  <a class="reference internal" href="#">
+   Welcome to PHYS122 Labs
+  </a>
+ </li>
+</ul>
+<p class="caption collapsible-parent">
  <span class="caption-text">
-  Syllabus
+  About Physics Lab
  </span>
 </p>
 <ul class="nav sidenav_l1">
  <li class="toctree-l1">
   <a class="reference internal" href="syllabus.html">
    Lab Syllabus
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../contents/general_info.html">
+   TA Information
   </a>
  </li>
 </ul>
@@ -126,11 +138,6 @@
  </span>
 </p>
 <ul class="nav sidenav_l1">
- <li class="toctree-l1">
-  <a class="reference internal" href="../contents/general_info.html">
-   TA Information
-  </a>
- </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../contents/lab1.html">
    Lab 1
@@ -176,9 +183,9 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/intros/intro.md"><button type="button"
+        <a class="dropdown-buttons" href="../_sources/intros/info.ipynb"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
-                data-placement="left">.md</button></a>
+                data-placement="left">.ipynb</button></a>
         <!-- Download PDF via print -->
         <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
             onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
@@ -196,10 +203,43 @@
 
         <!-- Launch buttons -->
 
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/thuanGIT/phys-web.git/master?urlpath=tree/intros/info.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="../_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
     </div>
 
     <!-- Table of contents -->
     <div class="d-none d-md-block col-md-2 bd-toc show">
+        
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#rules">
+   Rules
+  </a>
+  <ul class="nav section-nav flex-column">
+  </ul>
+ </li>
+</ul>
+
+        </nav>
         
     </div>
 </div>
@@ -212,15 +252,28 @@
 <h1>Welcome to PHYS122 Labs<a class="headerlink" href="#welcome-to-phys122-labs" title="Permalink to this headline">¶</a></h1>
 <ul class="simple">
 <li><p>You are here because you are registed in either section <strong>L03</strong> or <strong>L12</strong>.</p></li>
-<li><p>Please refer to the sections below for more information.</p></li>
+<li><p>Anything related to the lab can be found in the sections (left panel).</p></li>
 </ul>
-<div class="toctree-wrapper compound">
+<div class="section" id="rules">
+<h2>Rules<a class="headerlink" href="#rules" title="Permalink to this headline">¶</a></h2>
+<ol class="simple">
+<li><p><strong>Keep this book a secret</strong> place for yourself or anyone registered in physics lab.</p></li>
+<li><p><font color=red><b>Do not ever release your student ID on this book.</b></font></p></li>
+<li><p>Contents are updated regularly but not guaranteed (I will try my best tho).</p></li>
+<li><p>Have fun exploring! And if you spot a typo or have a great idea for edition of the page, please let me know!</p></li>
+</ol>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Please try your best to keep the rules. Otherwise, you and I are in trouble! Let’s stay low.</p>
 </div>
 <div class="toctree-wrapper compound">
 </div>
 <div class="toctree-wrapper compound">
 </div>
 <div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
 </div>
 </div>
 
