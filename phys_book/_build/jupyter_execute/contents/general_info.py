@@ -22,7 +22,7 @@ My name is Thuan(Jamie Vo). I am currently in second year, majoring in Computer 
 
 - Email: <mark>thuan.vo@ubc.ca</mark>
 - Discord Channel (via Cinnamon or me): **PHYS122LAB**. 
-    - If you have not joined, [Click Here](https://discord.gg/rP6GPm2r)
+    - If you have not joined, [Click Here](https://discord.gg/6auaEfgzwU)
 - Office Hours: 
 
 | Day | Time                   |
