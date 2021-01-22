@@ -2,10 +2,11 @@
 # This is the landing page
 - file: intros/intro
 
-- part: Syllabus
+- part: About Physics Lab
   chapters:
     - file: intros/syllabus
       title: Lab Syllabus
+    - file: contents/general_info
 - part: Schedule
   chapters:
     - file: intros/schedule
@@ -15,5 +16,4 @@
     - file: intros/installation
 - part: Labs
   chapters:
-    - file: contents/general_info
     - file: contents/lab1
