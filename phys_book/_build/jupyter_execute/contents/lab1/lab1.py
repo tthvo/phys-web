@@ -78,10 +78,14 @@ Why can we do that? Basically, the system energy is lost (max y-value is smaller
 - Record your data in the table and derive $\omega$ of different cases for part 1.1-1.3.
 - Sketch the shape of the graph for part 1.4.
 - Extract $\omega_{damped}$ and compare to part 1.1-1.3.
+- <a href="lab1_template.xlsx" download>Download Part 1.1_1.3 Excel Template</a>
+
 
 ```{caution}
 Please use the report template to write. If not, your report won't be marked (not my decision tho - lab manager said so).
 ```
+
+
 
 ## Discussion Questions
 
