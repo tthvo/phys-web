@@ -17,3 +17,7 @@
 - part: Labs
   chapters:
     - file: contents/lab1
+      section: 
+      -file: contents/prelab1
+      title: Pre Lab 1
+
