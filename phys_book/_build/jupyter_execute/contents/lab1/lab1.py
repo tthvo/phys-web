@@ -78,7 +78,7 @@ Why can we do that? Basically, the system energy is lost (max y-value is smaller
 - Record your data in the table and derive $\omega$ of different cases for part 1.1-1.3.
 - Sketch the shape of the graph for part 1.4.
 - Extract $\omega_{damped}$ and compare to part 1.1-1.3.
-- [Download Part 1.1_1.3 Excel Template](https://docs.google.com/spreadsheets/d/1tvmh57lGesc3uBAsXELHz8BHuwbP44ToetldzNx-t4I/export?format=xlsx)
+- [Download Part 1.1_1.3 Excel Template](https://docs.google.com/spreadsheets/d/e/2PACX-1vRzJJjfgeLcQuS1L45VlsObmCSQuhqCSLJCvZVdfvCjzC_Ki31w3XtpX5_JkCY9Xb4u6DVfC8tZy1Ox/pub?output=xlsx)
 
 
 
