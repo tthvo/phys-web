@@ -16,8 +16,8 @@
     - file: intros/installation
 - part: Labs
   chapters:
-    - file: contents/lab1
-      section: 
-      -file: contents/prelab1
-      title: Pre Lab 1
+    - file: contents/lab1/lab1
+      sections: 
+      - file: contents/lab1/prelab1
+        title: Pre Lab 1
 

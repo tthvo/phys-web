@@ -54,5 +54,5 @@ installation
 :titlesonly:
 :caption: Labs
 
-../contents/lab1
+../contents/lab1/lab1
 ```
