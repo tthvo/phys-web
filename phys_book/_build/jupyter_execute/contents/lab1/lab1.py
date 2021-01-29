@@ -104,7 +104,10 @@ Please use the report template to write. If not, your report won't be marked (no
 We study only 2 main types of energy in this motion. What are they?
 ```
 
+## Recordings
+- For introduction to physics lab, please [Click Here](https://ubc.zoom.us/rec/share/g-_y_Mf_nx94CwYkEiswMXkg5iKS2owo-2SE8dAoHzxReV4Frqr5rgNcyNM4bHNk.G0eAFEwhiZx49gBH?startTime=1611945511000)
 
+- For Lab 1 stuffs, please [Click Here](https://ubc.zoom.us/rec/share/g-_y_Mf_nx94CwYkEiswMXkg5iKS2owo-2SE8dAoHzxReV4Frqr5rgNcyNM4bHNk.G0eAFEwhiZx49gBH?startTime=1611946556000)
 
 
 
