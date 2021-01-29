@@ -17,8 +17,10 @@ Before we start, here is a table of some information needed to calculations.
 
 |$\pmb{M_{weak}}$| $0.011\pm{0.001} kg$
 |:---------------:|:----------------:|
-|$\pmb{M_{strong}}$| $0.174\pm{0.010} kg$
-|$\pmb{\delta{t_{1}}\:or\:\delta{t_{2}}}$| $\pm{0.02} s$
+|$\pmb{M_{strong}}$| $0.174\pm{0.010} kg$|
+|$\pmb{k_{weak}}$| $1.019\pm{0.010} N/m$|
+|$\pmb{k_{strong}}$| $10.100\pm{0.185} N/m$
+|$\pmb{\delta{t_{1}}\:or\:\delta{t_{2}}}$| $\pm{0.02} s$|
 
 ```{note}
 Force probe is zeroed at the point of equilibrium for each case.
@@ -62,8 +64,13 @@ Hide the previous points to avoid cluster. And set the frame per second to 2.
 - Part 2 is similar to part 1.1-1.3. All you have to do is to extract the period to calculate angular frequency $\omega$.
 - Then, we want to compare it to one of our trial in part 1.1 - 1.3: **Hint: Look at the combined mass.**
 
-|$Mass_{board+hanger}$|$0.060\pm{0.010}$|
+|$Mass_{board+hanger}$|$0.060\pm{0.010} kg$|
 |:-------------------:|:--------------:|
+
+```{tip}
+:class: dropdown
+Which equation does not assume anything but rather use only data on from generated graphs?
+```
 
 - Below is the picture of the graph that you want to take the period from.
 
