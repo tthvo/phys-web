@@ -23,7 +23,7 @@ glue('graph', graph,display=False)
 
 | 1 Antinode | 2 Antinodes | 3 Antinodes |
 |:----:|:----:|:----:|
-|{glue:} `1_anti`|{glue:} `2_anti`|{glue:} `3_anti`|
+|{glue:}`1_anti`|{glue:}`2_anti`|{glue:}`3_anti`|
 
 
 ```{tip}
@@ -37,7 +37,7 @@ Antinodes are points of maximum amptitude! Look at each case
 
 - This one requires a little bit of algebra <font color= 'red'><b>(getting yourself really cuz its gonna get messy!)</b></font>
 
-- We can summarize from the graph {glue:figure} `graph`: 
+- We can summarize from the graph {glue:figure}`graph`: 
 
 ````{panels} 
 Graph
