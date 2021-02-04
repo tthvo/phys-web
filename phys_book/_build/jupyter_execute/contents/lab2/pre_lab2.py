@@ -23,7 +23,7 @@ glue('graph', graph,display=False)
 
 | 1 Antinode | 2 Antinodes | 3 Antinodes |
 |:----:|:----:|:----:|
-|{glue:figure} `1_anti`|{glue:figure} `2_anti`|{glue:figure} `3_anti`|
+|{glue:} `1_anti`|{glue:} `2_anti`|{glue:} `3_anti`|
 
 
 ```{tip}
@@ -42,10 +42,9 @@ Antinodes are points of maximum amptitude! Look at each case
 ````{panels} 
 Graph
 ^^^
-```{glue:figure} graph```
+{glue:} `graph`
 +++
-Source: Pre Lab 2 (Canvas)
----
+
 
 Summary
 ^^^
