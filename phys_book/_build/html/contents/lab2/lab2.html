@@ -371,9 +371,12 @@ commentsRunWhenDOMLoaded(addUtterances);
 <hr class="docutils" />
 <div class="section" id="part-1-tension-calculation">
 <h2>Part 1: Tension Calculation<a class="headerlink" href="#part-1-tension-calculation" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>This is straightforward. And I hope everyone now knows how to calculate this.</p></li>
+</ul>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
-<p>Excel will help you calculate all in a few seconds!</p>
+<p>Go back to <code class="xref math math-numref docutils literal notranslate"><span class="pre">tension</span></code> for help!</p>
 </div>
 </div>
 <div class="section" id="part-2-frequency-pitch">
@@ -450,12 +453,12 @@ commentsRunWhenDOMLoaded(addUtterances);
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-<div id="altair-viz-33c1e580462f4e18b7f39f90ceedc13d"></div>
+<div id="altair-viz-0b8c83b56a384b5ea10e85e424bdbb14"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-33c1e580462f4e18b7f39f90ceedc13d") {
-      outputDiv = document.getElementById("altair-viz-33c1e580462f4e18b7f39f90ceedc13d");
+    if (outputDiv.id !== "altair-viz-0b8c83b56a384b5ea10e85e424bdbb14") {
+      outputDiv = document.getElementById("altair-viz-0b8c83b56a384b5ea10e85e424bdbb14");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -497,7 +500,7 @@ commentsRunWhenDOMLoaded(addUtterances);
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-fd53f1295d8c6ea9afcf185e30463b96"}, "mark": {"type": "circle", "color": "teal", "opacity": 0.6, "size": 70}, "encoding": {"x": {"type": "quantitative", "field": "n", "scale": {"domain": [0, 7]}, "title": "Number of antinodes"}, "y": {"type": "quantitative", "field": "f", "scale": {"domain": [0, 100]}, "title": "Frequency (Hz)"}}, "height": 300, "selection": {"selector002": {"type": "interval", "bind": "scales", "encodings": ["x", "y"]}}, "title": "Frequency vs Number of antinodes", "width": 300, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-fd53f1295d8c6ea9afcf185e30463b96": [{"n": 1, "f": 15.05, "f_error": 0.1}, {"n": 2, "f": 30.2, "f_error": 0.3}, {"n": 3, "f": 45.0, "f_error": 0.3}, {"n": 4, "f": 60.3, "f_error": 0.3}, {"n": 5, "f": 74.4, "f_error": 0.3}, {"n": 6, "f": 87.7, "f_error": 0.3}]}}, {"mode": "vega-lite"});
+  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "layer": [{"mark": {"type": "circle", "color": "teal", "opacity": 0.6, "size": 70}, "encoding": {"x": {"type": "quantitative", "field": "n", "scale": {"domain": [0, 7]}, "title": "Number of antinodes"}, "y": {"type": "quantitative", "field": "f", "scale": {"domain": [0, 100]}, "title": "Frequency (Hz)"}}, "height": 300, "selection": {"selector003": {"type": "interval", "bind": "scales", "encodings": ["x", "y"]}}, "title": "Frequency vs Number of antinodes", "width": 300}, {"mark": {"type": "line", "color": "red", "strokeDash": [3.0, 3.0]}, "encoding": {"x": {"type": "quantitative", "field": "n", "scale": {"domain": [0, 7]}, "title": "Number of antinodes"}, "y": {"type": "quantitative", "field": "f", "scale": {"domain": [0, 100]}, "title": "Frequency (Hz)"}}, "height": 300, "title": "Frequency vs Number of antinodes", "transform": [{"on": "n", "regression": "f", "method": "linear"}], "width": 300}, {"mark": {"type": "errorbar", "extent": "stderr"}, "encoding": {"x": {"type": "quantitative", "field": "x"}, "y": {"type": "quantitative", "field": "f", "scale": {"domain": [0, 100]}, "title": "Frequency (Hz)"}, "yError": {"field": "f_error:Q"}}, "height": 300, "title": "Frequency vs Number of antinodes", "width": 300}], "data": {"name": "data-fd53f1295d8c6ea9afcf185e30463b96"}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-fd53f1295d8c6ea9afcf185e30463b96": [{"n": 1, "f": 15.05, "f_error": 0.1}, {"n": 2, "f": 30.2, "f_error": 0.3}, {"n": 3, "f": 45.0, "f_error": 0.3}, {"n": 4, "f": 60.3, "f_error": 0.3}, {"n": 5, "f": 74.4, "f_error": 0.3}, {"n": 6, "f": 87.7, "f_error": 0.3}]}}, {"mode": "vega-lite"});
 </script></div></div>
 </div>
 <div class="admonition caution">

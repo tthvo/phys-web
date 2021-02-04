@@ -37,7 +37,7 @@ Antinodes are points of maximum amptitude! Look at each case
 
 - This one requires a little bit of algebra <font color= 'red'><b>(getting yourself really cuz its gonna get messy!)</b></font>
 
-- We can summarize from the graph {glue:figure}`graph`: 
+- We can summarize from the graph {glue:}`graph`: 
 
 ````{panels} 
 Graph
@@ -53,7 +53,7 @@ Summary
 |  $\pmb{L}$      | $1.304\pm{0.005} m$     |
 |:---------------:|:-----------------------:|
 |$\pmb{f}$        | $120.0\pm{0.1} Hz$      |
-|$\pmb{slope}$    | $-0.0013\pm{0.0004}.$   |
+|$\pmb{slope}$    | $-0.0013\pm{0.0004}$   |
 
 
 ````
@@ -62,12 +62,12 @@ Summary
 - $v = \sqrt{\frac{T}{\mu}} = f * \lambda$ where: 
 
     - $\lambda$ = **your findings in part 1**
-    - $T = m * g$, hanging mass on a string right?.
+    - ```{math}T = m * g :label: tension```, hanging mass on a string right?.
 
 - Now, look back at the graph. Ask yourself this question: <mark>Which one is the ***independent variable*** and which is the ***dependent variable***?</mark>
 
-- Then your next step is to isolate the ***independent*** on one side and the ***dependent** multiplying with a bunch of terms on the other.
+- Then your next step is to isolate the ***independent*** on one side and the ***dependent*** multiplying with a bunch of terms on the other.
 
 ```{tip}
-Your bunch of termns that multiplies with the independent variable is the slope! 
+Your bunch of terms that multiplies with the independent variable is the slope! 
 ```

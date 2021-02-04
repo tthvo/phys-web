@@ -5,9 +5,9 @@ Here are some stuffs for lab2
 ____
 
 ## Part 1: Tension Calculation
-
+- This is straightforward. And I hope everyone now knows how to calculate this. 
 ```{tip}
-Excel will help you calculate all in a few seconds!
+Go back to {math:numref}`tension` for help!
 ```
 
 ## Part 2: Frequency & Pitch?
