@@ -62,7 +62,8 @@ Summary
 - $v = \sqrt{\frac{T}{\mu}} = f * \lambda$ where: 
 
     - $\lambda$ = **your findings in part 1**
-    - ```{math}T = m * g :label: tension```, hanging mass on a string right?.
+    - ```{math}T = m * g$(1) 
+        :label: tension```
 
 - Now, look back at the graph. Ask yourself this question: <mark>Which one is the ***independent variable*** and which is the ***dependent variable***?</mark>
 
