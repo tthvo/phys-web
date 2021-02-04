@@ -42,9 +42,11 @@ Antinodes are points of maximum amptitude! Look at each case
 ````{panels} 
 Graph
 ^^^
-{glue:} `graph`
-+++
+```{glue:figure} graph
+:figwidth: 300px
+```
 
+---
 
 Summary
 ^^^
