@@ -66,7 +66,7 @@ errorbars = chart.mark_errorbar(extent='stderr').encode(
 )
 
 # Display the chart
-alt.layer(chart,linear_fit, errorbars)
+alt.layer(chart,linear_fit, errorbars).interactive()
 
 ```{caution}
 This is just a demo. Your graph should be in Logger Pro, which might look different! But it might give u a sense of what the values should be!

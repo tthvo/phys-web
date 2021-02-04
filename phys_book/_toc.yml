@@ -22,7 +22,7 @@
         title: Pre Lab 1
     - file: contents/lab2/lab2
       sections:
-      - file: contents/lab2/prelab2
+      - file: contents/lab2/pre_lab2
         title: Pre Lab 2
     - file: contents/lab3/lab3
       sections:

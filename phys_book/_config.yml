@@ -31,3 +31,6 @@ html:
 
 parse:
   myst_extended_syntax: true
+
+execute:
+  jupyter_execute_notebooks: 'force'  
