@@ -263,6 +263,23 @@ commentsRunWhenDOMLoaded(addUtterances);
 
         <!-- Launch buttons -->
 
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/thuanGIT/phys-web.git/master?urlpath=tree/contents/lab2/pre_lab2.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="../../_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
     </div>
 
     <!-- Table of contents -->
@@ -274,8 +291,13 @@ commentsRunWhenDOMLoaded(addUtterances);
         <nav id="bd-toc-nav">
             <ul class="nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#coming-soon">
-   Coming Soon!
+  <a class="reference internal nav-link" href="#part-1">
+   Part 1
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#part-2">
+   Part 2
   </a>
  </li>
 </ul>
@@ -293,8 +315,88 @@ commentsRunWhenDOMLoaded(addUtterances);
 <h1>Pre Lab 2<a class="headerlink" href="#pre-lab-2" title="Permalink to this headline">¶</a></h1>
 <p>Help on pre lab 2 is here</p>
 <hr class="docutils" />
-<div class="section" id="coming-soon">
-<h2>Coming Soon!<a class="headerlink" href="#coming-soon" title="Permalink to this headline">¶</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">PIL</span> <span class="kn">import</span> <span class="n">Image</span>
+<span class="kn">from</span> <span class="nn">myst_nb</span> <span class="kn">import</span> <span class="n">glue</span>
+
+<span class="n">im1</span> <span class="o">=</span> <span class="n">Image</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="s2">&quot;../../images/lab2/one_anti.jpg&quot;</span><span class="p">)</span>
+<span class="n">im2</span><span class="o">=</span><span class="n">Image</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="s2">&quot;../../images/lab2/two_anti.jpg&quot;</span><span class="p">)</span>
+<span class="n">im3</span><span class="o">=</span><span class="n">Image</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="s2">&quot;../../images/lab2/three_anti.jpg&quot;</span><span class="p">)</span>
+<span class="n">glue</span><span class="p">(</span><span class="s1">&#39;1_anti&#39;</span><span class="p">,</span><span class="n">im1</span><span class="p">,</span> <span class="n">display</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">glue</span><span class="p">(</span><span class="s1">&#39;2_anti&#39;</span><span class="p">,</span><span class="n">im2</span><span class="p">,</span><span class="n">display</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">glue</span><span class="p">(</span><span class="s1">&#39;3_anti&#39;</span><span class="p">,</span><span class="n">im3</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../../_images/pre_lab2_1_2.png" src="../../_images/pre_lab2_1_2.png" />
+</div>
+</div>
+<div class="section" id="part-1">
+<h2>Part 1<a class="headerlink" href="#part-1" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Here, you will need to derive a formula for <span class="math notranslate nohighlight">\(\pmb{\lambda}\)</span> from</p></li>
+<li><p>Let’s consider 3 scenarios:</p></li>
+</ul>
+<div class="tabbed-set docutils">
+<input checked="checked" id="154c814d-4848-49ca-bc09-d1130a03b9cf" name="82c69399-c42d-46cf-afb3-fca45e675777" type="radio">
+</input><label class="tabbed-label" for="154c814d-4848-49ca-bc09-d1130a03b9cf">
+1 Anti-node</label><div class="tabbed-content docutils">
+<div class="figure align-default">
+<div class="cell_output docutils container">
+<img alt="../../_images/pre_lab2_1_0.png" src="../../_images/pre_lab2_1_0.png" />
+</div>
+</div>
+</div>
+<input id="4cde340f-ba58-4f50-8a3c-0ae7caa18e5d" name="82c69399-c42d-46cf-afb3-fca45e675777" type="radio">
+</input><label class="tabbed-label" for="4cde340f-ba58-4f50-8a3c-0ae7caa18e5d">
+2 Anti-nodes</label><div class="tabbed-content docutils">
+<div class="figure align-default">
+<div class="cell_output docutils container">
+<img alt="../../_images/pre_lab2_1_1.png" src="../../_images/pre_lab2_1_1.png" />
+</div>
+</div>
+</div>
+<input id="eeaf129f-cc09-4818-9fda-4572b5d1f844" name="82c69399-c42d-46cf-afb3-fca45e675777" type="radio">
+</input><label class="tabbed-label" for="eeaf129f-cc09-4818-9fda-4572b5d1f844">
+3 Anti-nodes</label><div class="tabbed-content docutils">
+<div class="figure align-default">
+<div class="cell_output docutils container">
+<img alt="../../_images/pre_lab2_1_2.png" src="../../_images/pre_lab2_1_2.png" />
+</div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">sys</span><span class="o">,</span> <span class="nn">os</span>
+<span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">executable</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&#39;/Users/carol/opt/miniconda3/envs/phys-web/bin&#39;
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="part-2">
+<h2>Part 2<a class="headerlink" href="#part-2" title="Permalink to this headline">¶</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">sys</span><span class="o">,</span> <span class="nn">os</span>
+<span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">executable</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&#39;/Users/carol/opt/miniconda3/envs/phys-web/bin&#39;
+</pre></div>
+</div>
+</div>
+</div>
 </div>
 </div>
 

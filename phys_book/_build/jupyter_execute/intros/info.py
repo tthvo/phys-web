@@ -56,4 +56,5 @@ installation
 
 ../contents/lab1/lab1
 ../contents/lab2/lab2
+../contents/lab3/lab3
 ```
