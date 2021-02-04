@@ -96,5 +96,5 @@ This is just a demo. Your graph should be in Logger Pro, which might look differ
 :titlesonly:
 
 
-Pre Lab 2 <prelab2>
+Pre Lab 2 <pre_lab2>
 ```
