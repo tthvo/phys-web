@@ -10,7 +10,7 @@ ____
 
 - It might take some time!
 
-- Focus and you can do it!
+- Relax and you can do it!
 
 ## Part 1: Tension Calculation
 - This is straightforward. And I hope everyone now knows how to calculate this. 
@@ -18,7 +18,7 @@ ____
 Go back to pre lab 2 tension equation(2) for help!
 ```
 
-## Part 2: Frequency & Pitch?
+## Part 2: Natural frequency & Pitch
 
 - Basically, it is ***resonance*** in oscillations.
 
@@ -42,7 +42,7 @@ Objects (every? maybe) has natural frequency, in which it oscillate without any 
 - <mark>Steps to do that</mark>:
     - Step 1: Play the video. Of couse heh!
     - Step 2: Notice the first frequency mark that the string oscillates largely.  Record error (~$\pm{0.2} Hz$).
-    - Step 3: Notice the frequency mark that the string appears to "shrink". Record error (~$\pm{0.3} Hz$).
+    - Step 3: Notice the frequency mark that the string appears to "shrink". Record error (~$\pm{0.2} Hz$).
     - Step 4: Take the average to find the approximated frequency (according to the lab manual). Find the error of averaging.
 
 - Enter your data in page 1.
