@@ -1,28 +1,64 @@
 # Lab 2
 
-Here are some stuffs for lab2
+Here are some stuffs for lab2!
 
 ____
+
+## Overview
+
+- This lab might look a little intimidating but it will turn out pretty chilled.
+
+- It might take some time!
+
+- Focus and you can do it!
 
 ## Part 1: Tension Calculation
 - This is straightforward. And I hope everyone now knows how to calculate this. 
 ```{tip}
-Go back to {math:numref}`tension` for help!
+Go back to pre lab 2 tension equation(2) for help!
 ```
 
 ## Part 2: Frequency & Pitch?
 
+- Basically, it is ***resonance*** in oscillations.
 
-### Coming soon!
+- One real-life example: When you push your friend on a swing, you notice that if you push them at a certain frequency(tho you count the seconds - motion period), the swing would fly higher!
+
+- One more term to be familiar with is ***natural frequency***. Now, you should be able to answer these questions.
+
+```{note}
+Objects (every? maybe) has natural frequency, in which it oscillate without any directly applied forces.
+```
 
 
-## Part 3:
 
-- Now, there are <font color='red'><b>6 videos</b></font> corresponding to the number of anti-nodes in each case.
 
-## Part 4: 
+## Part 3: Frequency Extraction
 
-### Coming Soon
+- Now, there are **6 videos** corresponding to the number of anti-nodes in each case.
+
+- All you want to extract is <font color='red'><b>range of frequency that the string has the largest amplitude</b></font>.
+
+- <mark>Steps to do that</mark>:
+    - Step 1: Play the video. Of couse heh!
+    - Step 2: Notice the first frequency mark that the string oscillates largely.  Record error (~$\pm{0.2} Hz$).
+    - Step 3: Notice the frequency mark that the string appears to "shrink". Record error (~$\pm{0.3} Hz$).
+    - Step 4: Take the average to find the approximated frequency (according to the lab manual). Find the error of averaging.
+
+- Enter your data in page 1.
+
+```{caution}
+Listen carefully. Some frequency readings increases while other decreases. Why? Dr. H's choice? No idea.
+```
+    
+
+
+
+## Part 4: Calculate $\lambda$
+
+- You have to calculate $\lambda$ from **# of aninodes** and **length of string**. Sound familiar?
+
+- Enter your data to the table in page 1.
 
 ## Part 5: Plot and linear Fit
 
@@ -30,9 +66,9 @@ Go back to {math:numref}`tension` for help!
 - <mark>Steps to plot your data</mark>:
     - Enter values of "n" to X column. Enter the values of frequency to Y column. (go back to Pre lab 1)
     - Create a new column: 
-        - **Select Data > New Manual Column > Options header**
-        - **Check Error bar calculations**
-        - **Select Fixed value**
+        - **Select Data > New Manual Column > Options header**.
+        - **Check Error bar calculations**.
+        - **Select Fixed value**.
 
 ![](../../images/lab2/add_column.png)
 
@@ -72,17 +108,53 @@ alt.layer(chart,linear_fit, errorbars).interactive()
 This is just a demo. Your graph should be in Logger Pro, which might look different! But it might give u a sense of what the values should be!
 ```
 
+## Part 6: Calculate $\mu$
+
+- Calcute $\mu$ from the slope of best fit line. Sound familiar?
+
+```{tip}
+Go to pre lab 2 again!
+```
+
+## Part 7: Describe obersations
+
+- There are **3 videos** to watch and answer related questions in the report sheet.
+
+- Basically, the first two include Dr. H striked a strobe light (don't worry about what it is!) with frequency of 30 Hz and 60Hz. The third one is just him touching the string at nodes and antinodes.
+
+- What you need to do is <mark>describe how the string behaved in each case</mark>.
+
+```{tip}
+Listen carefully! Dr. H gave away the explanation as he did the experiment!
+```
+
 ## Data Collection and Analysis
 
--  
+-  Complete table for page 1 (Part 1,3,5,6). The below excel sheet will help you!
 - [Download Excel Template](https://docs.google.com/spreadsheets/d/e/2PACX-1vRAQbU1WT9LTW74JDTUguWd6Vcxvokxwkpgg5uOfV9XhA0Z3NokKYqnrwWIyuTdEVlFbwMzPE9xcfkF/pub?output=xlsx)
 
 
 
+## Uncertainties Calculation
+
+- You have to show me how you calculate the uncertainties in Part 1 via **an example with actuall values**.
+
+- **I would recommend doing it without Excel Sheet for practice!**
+
 ## Discussion Question
 
-- 
+- Basically, you need to explain: At the point in contact of the vibrator (which was vibrating/moving), why is that point consider a node?
+
+- Here is a illustration for you:
+
 ![](../../images/lab2/discussion_lab2.jpg)
+
+- One more thing he asks is how you would reduce such error about that assumptions.
+
+```{tip}
+Just use common sense!
+```
+
 
 
 
