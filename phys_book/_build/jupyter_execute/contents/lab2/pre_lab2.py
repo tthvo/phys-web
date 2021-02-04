@@ -69,5 +69,5 @@ Summary
 - Then your next step is to isolate the ***independent*** on one side and the ***dependent*** multiplying with a bunch of terms on the other.
 
 ```{tip}
-Your bunch of terms that multiplies with the independent variable is the slope! 
+Your bunch of terms that multiplies with the independent variable (not including the variable) is the slope! 
 ```
