@@ -27,7 +27,7 @@ glue('graph', graph,display=False)
 
 
 ```{tip}
-Antinodes are points of maximum amptitude! Look at each case
+Antinodes are points of maximum amptitude! Look to see which quantity is changing according to each case.
 ```
 
 
