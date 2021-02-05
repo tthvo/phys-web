@@ -158,7 +158,9 @@ Just use common sense!
 
 
 
+## Recordings
 
+- Lab Procedure. [Click Here](https://ubc.zoom.us/rec/shareHGmQgwmZTFZzeF8MOQJL6q7qWvWJYLDOzDAKDgmSOPHUdQbCzbQspEK8GcKapXTr.lT_YoRvtVncuZsuR)
 
 
 
