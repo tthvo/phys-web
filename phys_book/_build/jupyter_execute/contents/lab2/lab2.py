@@ -160,7 +160,11 @@ Just use common sense!
 
 ## Recordings
 
-- Lab Procedure. [Click Here](https://ubc.zoom.us/rec/shareHGmQgwmZTFZzeF8MOQJL6q7qWvWJYLDOzDAKDgmSOPHUdQbCzbQspEK8GcKapXTr.lT_YoRvtVncuZsuR)
+- Lab Procedure. [Click Here](https://ubc.zoom.us/rec/share/KxPjPEo_hgUsVKjzZz9SWcQvwHCNEHhe7MPT7S-M7yBnZ5ZsD433fsmaARgTKBS2.TUJqnxWHEjOx9LmC)
+
+
+
+
 
 
 
