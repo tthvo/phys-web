@@ -116,7 +116,7 @@ This is just a demo. Your graph should be in Logger Pro, which might look differ
 Go to pre lab 2 again!
 ```
 
-## Part 7: Describe obersations
+## Part 7: Describe observations
 
 - There are **3 videos** to watch and answer related questions in the report sheet.
 
