@@ -26,8 +26,7 @@ html:
   home_page_in_navbar: true
   comments:
     hypothesis: true
-    utterances:
-      repo: "https://github.com/thuanGIT/phys-web.git"
+    
 
 parse:
   myst_extended_syntax: true

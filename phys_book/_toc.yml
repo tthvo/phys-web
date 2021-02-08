@@ -28,3 +28,7 @@
       sections:
         - file: contents/lab3/prelab3
           title: Pre Lab 3
+    - file: contents/lab4/lab4
+      sections:
+        - file: contents/lab4/prelab4
+          title: Pre Lab 4
