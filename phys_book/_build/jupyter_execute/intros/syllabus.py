@@ -56,7 +56,11 @@ It is different from term 1. Now, attendance is mandatory. Don't worry! I will f
     - Medical reason with valid medical document **(original copies)**.
     - Other very special cases.
 
-- Please email lab manager or me **at least 3 days** in advanced 
+- Please email lab manager or me **at least 3 days** in advanced.
+
+:::{warning}
+Please submit [this form](https://ubc.ca1.qualtrics.com/jfe/form/SV_9KRbqUS5tWhShN4) for lab missing and extension on report sheet/prelab.
+:::
 
 ## Late Labs / Extensions
 
