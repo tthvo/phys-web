@@ -162,6 +162,10 @@ Giving only the formula will gain you only half marks!
 The mic did not touch the rod! Right!?
 ```
 
+## Recordings
+
+- Lab Procedure: [Click Here](https://ubc.zoom.us/rec/share/uVht9f5PeuMS2d_9SxoUZLs3H3_ua7OgY_xYB35NFjxTNULJsZjW2BrfC4SZ6eND.CKMwdrfBFDqzwIQ4)
+
 
 ```{toctree}
 :hidden:
