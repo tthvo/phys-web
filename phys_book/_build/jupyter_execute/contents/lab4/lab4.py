@@ -32,7 +32,7 @@ Watch the video first before you do it!
 ```
 ````
 
-### Setup instruction
+### Setup instructions
 
 - Now, let's have a brief version of the instruction.
     - Step 1: Take out 1 piece of tape, touch it gently to discharge, put it on anything insulated and mark it **N**.
