@@ -12,7 +12,7 @@ ___
 The answer is right in the lab manual
 ```
 ````
-- Basically, you tell me what Coulomb's Law is.
+- Basically, question need you tell me what Coulomb's Law is.
 - What I want from you is: **brief description** and **main formula**.
 
 ```{note}
