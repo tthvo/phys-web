@@ -28,6 +28,7 @@ Please try your best to keep the rules. Otherwise, you and I are in trouble! Let
 
 Lab Syllabus <syllabus>
 ../contents/general_info
+excel_rule
 ```
 
 

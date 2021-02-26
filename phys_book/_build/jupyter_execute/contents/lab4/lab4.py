@@ -156,7 +156,7 @@ Please include these pictures in your reportsheet as one whole pdf.
 
 ## Recordings
 
-Comming Soon!
+- Here is your lab 4 recordings. [Click Here](https://ubc.zoom.us/rec/share/imBPYLsRFMqzKORW86dMMb1EX2MRLjZnikOnZLMNRhRxVE1_hr02hA_4NJHxtYA.MsYgPbTFjNEQzFrI)
 
 
 ```{toctree}

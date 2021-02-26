@@ -7,6 +7,7 @@
     - file: intros/syllabus
       title: Lab Syllabus
     - file: contents/general_info
+    - file: intros/excel_rule
 - part: Schedule
   chapters:
     - file: intros/schedule
