@@ -9,7 +9,8 @@ This book manages the files and questions related to the labs
 If you'd like to develop on and build the phys-book book, you should:
 
 - Clone this repository and run
-- Run `pip install -r requirements.txt` (it is recommended you do this within a virtual environment)
+- Run `pip install -r requirements.txt` if you are using venv to create virtual environment.
+- If you are using Conda as package manager, run `conda env create -f environment. yml`
 - (Recommended) Remove the existing `phys-book/_build/` directory
 - Run `jupyter-book build phys-book/`
 
