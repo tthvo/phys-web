@@ -22,7 +22,7 @@ ___
     - What you see might not be what is really happening. **You need to evaluate it**.
     - What you report is what you see after making adjustments. **Do not use assumptions**.
 
-- Do your setences need to be elegant and complex? <mark>No! Information matters more!</mark>
+- Do your sentences need to be elegant and complex? <mark>No! Information matters more!</mark>
 
 ```{attention}
 Observation is the crucial steps in science. But the eyes are easily deceived.
@@ -38,7 +38,7 @@ Observation is the crucial steps in science. But the eyes are easily deceived.
     - Others' idea might be right. You can use it but in your own words.
     - Other's idea might be wrong. If you suspect it, investigate it! **Do not trust what you cannot trust**. 
 
-- Again, do your setences need to be elegant and complex? <mark>No! Information matters more!</mark>
+- Again, do your sentences need to be elegant and complex? <mark>No! Information matters more!</mark>
 
 ```{caution}
 Your prof's words might sound elegant but it is not coming your own mind!
@@ -56,7 +56,7 @@ Your prof's words might sound elegant but it is not coming your own mind!
 
 - Your final task: Give your analysis on the data.
     - Comparing columns: E.g. "within experimental" meanings "there is a overlap region of those compared numbers".
-    - Graph: E.g. Given a linear function, what does the slope represent? Can it be use to do something? Example in lab 2
+    - Graph: E.g. Given a linear function, what does the slope represent? Can it be use to do something? 
     - Abnormal things: E.g. My data is negative but most of my friends have positive data. What might happen?
 
 ```{warning}
@@ -75,5 +75,27 @@ A simple yes or no does not give anything useful!
 
 ### Problems
 
-- Yes, problems! You made problems for me solve such that the system can be improved.
+- Yes, problems! You made problems for me solve such that the system can be improved. Your problems helped us cover all the edge cases that we have not though of, especially in these difficult times.
 - Your feedbacks and complains will always be heard.
+
+## Your extra task
+
+- I would reccomend you every week to go back to your previous reports and ask yourself some questions:
+    - Could I have done this better?
+    - What did I do wrong here?
+    - What have I learned from here?
+- Now, you are asking me: How do I practice these skills?
+    - It is everywhere. Labs are basically throwing you a bunch of data to solve.
+    - Choose a problem around you.
+    - Let's say I record which time I go to sleep and do some analysis on it.
+        - Am I sleeping late?
+        - Is there a day I sleep early? Why?
+        - What make me sleep late?
+        - If I graph a line chart of my sleeping record, I wonder what the trend is. Am I sleeping earlier? Or even later?
+        - If I graph a line chart of my sleeping record against the time I spend playing game, I wonder whether gaming causes me to lose sleep?
+
+- Goodluck!
+
+```{tip}
+Problems are everywhere! I beg you have other labs too! Try using these skills there!
+```
