@@ -8,6 +8,7 @@
       title: Lab Syllabus
     - file: contents/general_info
     - file: intros/excel_rule
+    - file: intros/expectation
 - part: Schedule
   chapters:
     - file: intros/schedule
