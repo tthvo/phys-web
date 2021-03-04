@@ -100,22 +100,6 @@
     }
   },
   "contents/lab3/prelab3": {
-    "node": {
-      "output_type": "display_data",
-      "data": {
-        "application/papermill.record/text/plain": "<PIL.Image.Image image mode=RGB size=280x127 at 0x7F8EFFE59040>",
-        "application/papermill.record/image/png": null
-      },
-      "metadata": {
-        "scrapbook": {
-          "name": "node",
-          "mime_prefix": "application/papermill.record/"
-        },
-        "filenames": {
-          "image/png": "/Users/carol/Desktop/labbook/phys_book/phys_book/_build/jupyter_execute/contents/lab3/prelab3_1_1.png"
-        }
-      }
-    },
     "antinode": {
       "output_type": "display_data",
       "data": {
@@ -129,6 +113,22 @@
         },
         "filenames": {
           "image/png": "/Users/carol/Desktop/labbook/phys_book/phys_book/_build/jupyter_execute/contents/lab3/prelab3_1_0.png"
+        }
+      }
+    },
+    "node": {
+      "output_type": "display_data",
+      "data": {
+        "application/papermill.record/text/plain": "<PIL.Image.Image image mode=RGB size=280x127 at 0x7F8EFFE59040>",
+        "application/papermill.record/image/png": null
+      },
+      "metadata": {
+        "scrapbook": {
+          "name": "node",
+          "mime_prefix": "application/papermill.record/"
+        },
+        "filenames": {
+          "image/png": "/Users/carol/Desktop/labbook/phys_book/phys_book/_build/jupyter_execute/contents/lab3/prelab3_1_1.png"
         }
       }
     },

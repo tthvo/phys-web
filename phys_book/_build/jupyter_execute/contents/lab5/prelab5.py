@@ -72,6 +72,10 @@ customize(ax[1])
 
 fig.show()
 
+```{caution}
+Use only the portion where x >= 0. Distance cannot be negative right?
+```
+
 ## Part 2
 
 - Our question is:
