@@ -5,17 +5,72 @@ ___
 
 ## Part 1
 
-- Here is an equation to keep in mind for this question.
+- In terms of the potential, the component of the electric field in the s-direction is $E_{s} = -\frac{\Delta{V}}{\Delta{s}}$ ($\Delta{V}$ is the potential difference between the two points, $\Delta{s}$ is the small distance between to points i and f. In the limit $\Delta{s}$→0:
+
 $$E_{s} = -\frac{dV}{ds}$$
 
 - The formula is derived as such: 
 
 ```{figure} ../../images/lab5/concept_lab5.jpg
----
-scale: 50%
----
-
+:scale: 40%
 ```
+
+- Question: Why is this important? Answer: **The electric field is the negative of the slope of potential vs distance graph!**
+
+- Let's have an example <mark>(<b>bottom-right</b>)</mark>:
+
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Initialize some constant
+k = 9 * pow(10,9)
+def find_V(x_array, q=pow(10,-9)): # Default q=1nC
+    with np.errstate(divide='ignore', invalid='ignore'):
+        return (k * q)/x_array
+
+def find_E(x_array, q=pow(10,-9)): # Default q=1nC
+    # Basically -(-(k*q)/x^2) but altogether gives +
+    return (k * q)/pow(x_array,2)
+
+# Sample size
+n = 201
+x_lim=20
+# Generate a random dataset
+sample_x = np.linspace(-x_lim,x_lim,n)
+#sample_x = np.linspace(-10,10,101)
+# print(sample) Debugging
+
+# Customize figures and plots
+fig_kw = {'color':'r','linewidth':4.0}
+fig, ax = plt.subplots(nrows=1,ncols=2) # Create a figure with 
+fig.tight_layout()
+fig.figsize=(20,20) # 18x15 inches
+
+def customize(ax):
+    ax.spines['right'].set_visible(False)
+    ax.spines['top'].set_visible(False)
+    ax.axvline(x=0, color='red',linestyle=":")
+    return ax
+
+
+# Set up for V graph
+ax[0].plot(sample_x,find_V(sample_x))
+ax[0].set(title=r"$V_{x}\ vs\ x$", 
+          ylabel="Electric Potential (V)",
+          xlabel="x(m)", 
+          label=r"$V(x)= \frac{k*q}{x}$")
+customize(ax[0])
+
+# Set up for E graph
+ax[1].plot(sample_x, find_E(sample_x))
+ax[1].set(title=r"$E_{x}\ vs\ x$", 
+          ylabel="Electric Field (V/m)",
+          xlabel="x(m)",
+          label=r"$E(x)= -\frac{k*q}{x^2}$")
+customize(ax[1])
+
+fig.show()
 
 ## Part 2
 
