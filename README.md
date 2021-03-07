@@ -1,12 +1,12 @@
-# phys-book
+# PHYSICS BOOK
 
-This book manages the files and questions related to the labs
+This is an open-source project to all Physics TA at UBC Okanagan. This book manages the files and questions related to the PHYS122 Lab. Another development for PHYS112 labs will be in progress in September 2021.
 
 ## Usage
 
 ### Building the book
 
-If you'd like to develop on and build the phys-book book, you should:
+If you'd like to develop on and continue to build the phys-book book, you should:
 
 - Clone this repository and run
 - Run `pip install -r requirements.txt` if you are using venv to create virtual environment.
@@ -22,7 +22,7 @@ The html version of the book is hosted on the `gh-pages` branch of this repo. A 
 
 If you wish to disable this automation, you may remove the GitHub actions workflow and build the book manually by:
 
-- Navigating to your local build; and running,
+- Navigating to your local build (projet root); and running,
 - `ghp-import -n -p -f phys-book/_build/html`
 
 This will automatically push your build to the `gh-pages` branch. More information on this hosting process can be found [here](https://jupyterbook.org/publish/gh-pages.html#manually-host-your-book-with-github-pages).
