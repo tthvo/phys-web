@@ -295,6 +295,23 @@
 
         <!-- Launch buttons -->
 
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/thuanGIT/phys-web.git/master?urlpath=tree/contents/lab6/lab6.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="../../_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
     </div>
 
     <!-- Table of contents -->
@@ -306,8 +323,47 @@
         <nav id="bd-toc-nav">
             <ul class="nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#coming-soon">
-   Coming Soon!
+  <a class="reference internal nav-link" href="#overview">
+   Overview
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#part-1-calculations">
+   Part 1: Calculations
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#uncertainty-calculations">
+     Uncertainty Calculations
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#part-2-plotting-r-vs-a-1">
+   Part 2: Plotting
+   <span class="math notranslate nohighlight">
+    \(R\)
+   </span>
+   vs
+   <span class="math notranslate nohighlight">
+    \(A^{-1}\)
+   </span>
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#discussion">
+   Discussion
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#excel-work">
+   Excel Work
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#recordings">
+   Recordings
   </a>
  </li>
 </ul>
@@ -323,8 +379,145 @@
                 
   <div class="section" id="lab-6">
 <h1>Lab 6<a class="headerlink" href="#lab-6" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="coming-soon">
-<h2>Coming Soon!<a class="headerlink" href="#coming-soon" title="Permalink to this headline">¶</a></h2>
+<p>Here are some stuffs for lab 6!</p>
+<hr class="docutils" />
+<div class="section" id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>This lab is probably the easiest and shortest lab so far.</p></li>
+<li><p>Only error calculations are the majority of the work.</p></li>
+<li><p>It requires a look-up for mapping resistivity and material type.</p></li>
+<li><p>Plotting is required for submission.</p></li>
+</ul>
+</div>
+<div class="section" id="part-1-calculations">
+<h2>Part 1: Calculations<a class="headerlink" href="#part-1-calculations" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Let’s have a look at the setup first:</p></li>
+</ul>
+<div class="figure align-default">
+<a class="reference internal image-reference" href="../../_images/demo_lab6.jpg"><img alt="../../_images/demo_lab6.jpg" src="../../_images/demo_lab6.jpg" style="width: 297.5px; height: 151.2px;" /></a>
+</div>
+<div class="margin sidebar">
+<p class="sidebar-title"></p>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>The caption gave you everything!</p>
+</div>
+</div>
+<ul class="simple">
+<li><p>Your task is to collect values of <span class="math notranslate nohighlight">\(V\)</span>, and <span class="math notranslate nohighlight">\(I\)</span> from the figures in lab manual.</p></li>
+<li><p>There are <strong>5 wires of increasing diameter</strong> of the <strong>same material</strong> corresponding to 5 figures. so, make sure to <mark> keep track on the figure label</mark>.</p></li>
+<li><p>Next, you need to calculate other quantities such as:</p></li>
+</ul>
+<div class="math notranslate nohighlight">
+\[R = \frac{V}{I}\ and\ \rho = \frac{RA}{L}\ (resistivity)\]</div>
+<div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<p>The lab use <span class="math notranslate nohighlight">\(V\)</span> as a replacement for <span class="math notranslate nohighlight">\(\Delta{V}\)</span> as we assume <span class="math notranslate nohighlight">\(V_0\)</span> = 0. Instead, <span class="math notranslate nohighlight">\(\Delta{V}\)</span> represents its uncertainty.</p>
+</div>
+<div class="section" id="uncertainty-calculations">
+<h3>Uncertainty Calculations<a class="headerlink" href="#uncertainty-calculations" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Now, the manual says there is a special error measurement for <span class="math notranslate nohighlight">\(\Delta{V}\)</span> and <span class="math notranslate nohighlight">\(I\)</span>.</p></li>
+</ul>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="text-align:center head"><p>Quantity</p></th>
+<th class="text-align:center head"><p>Error Specifications</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-align:center"><p><span class="math notranslate nohighlight">\(\Delta{V}\)</span></p></td>
+<td class="text-align:center"><p>0.5% of the reading plus 2 digits</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p><span class="math notranslate nohighlight">\(\Delta{I}\)</span></p></td>
+<td class="text-align:center"><p>1% of the reading plus 3 digits</p></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Those ‘2’ and ‘3’ digits are added to the last decimal places. The number of decimal places depends on your references. For the lab, three are enough.</p>
+</div>
+<ul class="simple">
+<li><p>Let’s have an example. You have found <span class="math notranslate nohighlight">\(V = 9.321 V\)</span>. So its error is:</p></li>
+</ul>
+<div class="math notranslate nohighlight">
+\[\Delta{V} = (9.321 V) \times 0.005 + 0.002 = 0.049 V\]</div>
+<ul class="simple">
+<li><p>Note that we <mark>add 0.002 because we choose to keep 3 decimal place.</mark></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="part-2-plotting-r-vs-a-1">
+<h2>Part 2: Plotting <span class="math notranslate nohighlight">\(R\)</span> vs <span class="math notranslate nohighlight">\(A^{-1}\)</span><a class="headerlink" href="#part-2-plotting-r-vs-a-1" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Once you have all data ready, extract the R and x columns for plotting.</p></li>
+<li><p>Now, you have 2 choices:</p>
+<ul>
+<li><p>Logger Pro: Same steps as lab 1-5.</p></li>
+<li><p>For Excel, use Scatter Plot with column R and x.</p></li>
+</ul>
+</li>
+</ul>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>Make sure to add errors in the graph for either method!</p>
+</div>
+<ul class="simple">
+<li><p>Here is a demo for you to follow:</p></li>
+</ul>
+<div class="cell tag_hide-input docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
+
+<span class="c1"># Loading data set </span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;lab6.csv&quot;</span><span class="p">,</span> <span class="n">delimiter</span><span class="o">=</span><span class="s2">&quot;,&quot;</span><span class="p">)</span>
+
+<span class="c1"># Setting for plot</span>
+<span class="n">sns</span><span class="o">.</span><span class="n">set_theme</span><span class="p">(</span><span class="s2">&quot;notebook&quot;</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">&quot;darkgrid&quot;</span><span class="p">,</span> <span class="n">font_scale</span><span class="o">=</span><span class="mf">1.3</span><span class="p">)</span>
+<span class="n">sns</span><span class="o">.</span><span class="n">set_palette</span><span class="p">(</span><span class="s2">&quot;husl&quot;</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
+<span class="n">plot</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">lmplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">&quot;x&quot;</span><span class="p">,</span>
+                  <span class="n">y</span><span class="o">=</span><span class="s2">&quot;R&quot;</span><span class="p">,</span>
+                  <span class="n">data</span><span class="o">=</span><span class="n">df</span><span class="p">,</span>
+                  <span class="n">scatter_kws</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;s&#39;</span><span class="p">:</span><span class="mi">70</span><span class="p">,</span> <span class="s1">&#39;edgecolor&#39;</span><span class="p">:</span><span class="s1">&#39;w&#39;</span><span class="p">})</span>
+<span class="n">plot</span><span class="o">.</span><span class="n">despine</span><span class="p">()</span>
+<span class="n">plot</span><span class="o">.</span><span class="n">set_axis_labels</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;$A^{-1} (mm^{-2})$&quot;</span><span class="p">,</span><span class="sa">r</span><span class="s2">&quot;$R (\Omega)$&quot;</span><span class="p">)</span>
+<span class="n">plot</span><span class="o">.</span><span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;$R\ vs\ A^{-1}$&quot;</span><span class="p">)</span>
+
+<span class="c1"># Now plot the error bar</span>
+<span class="n">plot</span><span class="o">.</span><span class="n">ax</span><span class="o">.</span><span class="n">errorbar</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">df</span><span class="p">[</span><span class="s2">&quot;x&quot;</span><span class="p">],</span> <span class="n">y</span><span class="o">=</span><span class="n">df</span><span class="p">[</span><span class="s2">&quot;R&quot;</span><span class="p">],</span> <span class="n">xerr</span><span class="o">=</span><span class="n">df</span><span class="p">[</span><span class="s2">&quot;x error&quot;</span><span class="p">],</span> <span class="n">yerr</span><span class="o">=</span><span class="n">df</span><span class="p">[</span><span class="s2">&quot;R error&quot;</span><span class="p">],</span> <span class="n">fmt</span><span class="o">=</span><span class="s1">&#39;none&#39;</span><span class="p">)</span>
+
+<span class="c1"># Show plot</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../../_images/lab6_4_0.svg" src="../../_images/lab6_4_0.svg" /></div>
+</div>
+</div>
+<div class="section" id="discussion">
+<h2>Discussion<a class="headerlink" href="#discussion" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>One question asks you to identify the wire material. This requires <strong>resistivity table</strong> to do the look-up.</p></li>
+<li><p>Last question asks you to evaluate the relationship between R and <span class="math notranslate nohighlight">\(A^{-1}\)</span>. Either use <span class="math notranslate nohighlight">\(R^2\)</span> (Excel) or <strong>Slope</strong> to justify your claim.</p></li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>For resistivity, be careful as some metal is in form of liquid at room temperature!</p>
+</div>
+</div>
+<div class="section" id="excel-work">
+<h2>Excel Work<a class="headerlink" href="#excel-work" title="Permalink to this headline">¶</a></h2>
+<p>Coming soon on Thursday ~5PM PST! Watch out!</p>
+</div>
+<div class="section" id="recordings">
+<h2>Recordings<a class="headerlink" href="#recordings" title="Permalink to this headline">¶</a></h2>
+<p>Coming Soon!</p>
 <div class="toctree-wrapper compound">
 </div>
 </div>
