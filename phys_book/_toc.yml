@@ -41,3 +41,7 @@
       sections:
         - file: contents/lab6/prelab6
           title: Pre Lab 6
+    - file: contents/lab7/lab7
+      sections:
+        - file: contents/lab7/prelab7
+          title: Pre Lab 7
