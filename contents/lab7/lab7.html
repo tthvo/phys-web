@@ -326,6 +326,60 @@
     <!-- Table of contents -->
     <div class="d-none d-md-block col-md-2 bd-toc show">
         
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#overview">
+   Overview
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#analogous-relationship-with-electrical-circuit">
+   Analogous relationship with electrical circuit
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#tables-of-known-quantities">
+   Tables of known quantities
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#part-1-data-collection-calculation">
+   Part 1: Data Collection &amp; Calculation
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#section-1-collection">
+   Section 1: Collection
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#section-2-calculation">
+   Section 2: Calculation
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#part-2-plotting">
+   Part 2: Plotting
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#discussion">
+   Discussion
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#recordings">
+   Recordings
+  </a>
+ </li>
+</ul>
+
+        </nav>
+        
     </div>
 </div>
     <div id="main-content" class="row">
@@ -337,7 +391,212 @@
 <h1>Lab 7<a class="headerlink" href="#lab-7" title="Permalink to this headline">¶</a></h1>
 <p>Here are some stuffs for lab 7!</p>
 <hr class="docutils" />
+<div class="section" id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>This lab is an analogous experiment with Ohm Law experiment of Lab 6.</p></li>
+<li><p>Some concepts are related to fluid dynamics. So, you might want to revise that topic.</p></li>
+<li><p>Excel sheet will do all the works! Hopefully, it turns out quick for you.</p></li>
+</ul>
+</div>
+<div class="section" id="analogous-relationship-with-electrical-circuit">
+<h2>Analogous relationship with electrical circuit<a class="headerlink" href="#analogous-relationship-with-electrical-circuit" title="Permalink to this headline">¶</a></h2>
+<div class="figure align-default">
+<a class="reference internal image-reference" href="../../_images/analogy_lab7.jpg"><img alt="../../_images/analogy_lab7.jpg" src="../../_images/analogy_lab7.jpg" style="width: 778.4000000000001px; height: 256.8px;" /></a>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The setup is not a complete circuit as the fluid does not flow back to the other terminal.</p>
+</div>
+</div>
+<div class="section" id="tables-of-known-quantities">
+<h2>Tables of known quantities<a class="headerlink" href="#tables-of-known-quantities" title="Permalink to this headline">¶</a></h2>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="text-align:center head"><p>Name</p></th>
+<th class="text-align:center head"><p><span class="math notranslate nohighlight">\(L(m)\)</span></p></th>
+<th class="text-align:center head"><p><span class="math notranslate nohighlight">\(d_s(mm)\)</span></p></th>
+<th class="text-align:center head"><p><span class="math notranslate nohighlight">\(d_m(mm)\)</span></p></th>
+<th class="text-align:center head"><p><span class="math notranslate nohighlight">\(d_l(mm)\)</span></p></th>
+<th class="text-align:center head"><p><span class="math notranslate nohighlight">\(\Delta{h}(cm)\)</span></p></th>
+<th class="text-align:center head"><p><span class="math notranslate nohighlight">\(\rho(\frac{kg}{m^3})\)</span></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-align:center"><p>Value</p></td>
+<td class="text-align:center"><p><span class="math notranslate nohighlight">\(0.95\pm0.01\)</span></p></td>
+<td class="text-align:center"><p><span class="math notranslate nohighlight">\(0.28\pm10\)</span>%</p></td>
+<td class="text-align:center"><p><span class="math notranslate nohighlight">\(0.64\pm10\)</span>%</p></td>
+<td class="text-align:center"><p><span class="math notranslate nohighlight">\(0.99\pm10\)</span>%</p></td>
+<td class="text-align:center"><p><span class="math notranslate nohighlight">\(23.1\pm0.5\)</span></p></td>
+<td class="text-align:center"><p><span class="math notranslate nohighlight">\(997\pm0\)</span></p></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<p>Make sure to keep track your units! Do not mix them up!</p>
+</div>
+</div>
+<div class="section" id="part-1-data-collection-calculation">
+<h2>Part 1: Data Collection &amp; Calculation<a class="headerlink" href="#part-1-data-collection-calculation" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>In this lab, you are given <strong>3 Youtube Videos</strong> for extracting data.</p></li>
+<li><p>Note that the length of first video will be 31 minutes. And the others are approximately 5 minutes each.</p></li>
+<li><p>Let’s take a look at the setup first:</p></li>
+</ul>
+<div class="figure align-default">
+<a class="reference internal image-reference" href="../../_images/setup_lab7.jpg"><img alt="../../_images/setup_lab7.jpg" src="../../_images/setup_lab7.jpg" style="width: 988.0px; height: 377.0px;" /></a>
+</div>
+</div>
+<div class="section" id="section-1-collection">
+<h2>Section 1: Collection<a class="headerlink" href="#section-1-collection" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Now, which pieces of information we are trying to extract? <font color='red'><b>Mass value from the scale</b></font>.</p></li>
+<li><p>In each video, you need to find at least 12 values of mass. That means:</p>
+<ul>
+<li><p>Choose 12 moments in the video.</p></li>
+<li><p>Record the time. E.g. Time = 140s.</p></li>
+<li><p>Record the scale reading according to each time.</p></li>
+<li><p>Repeat the same pattern for the other two videos.</p></li>
+</ul>
+</li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>For the first video (small diameter), choose any moment as long as you gather at least 12 of them. For the other two, you can start from 20s and increment the time by 20s.</p>
+</div>
+</div>
+<div class="section" id="section-2-calculation">
+<h2>Section 2: Calculation<a class="headerlink" href="#section-2-calculation" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>For the first 3 graphs, you need to find the Volume from Mass. How? Use <span class="math notranslate nohighlight">\(\rho = \frac{m}{V}\)</span>.</p></li>
+<li><p>For the last graph, there are several things to calculate:</p>
+<ul>
+<li><p><span class="math notranslate nohighlight">\(\Delta{P}\)</span>: Find the pressure difference from <span class="math notranslate nohighlight">\(\Delta{P} = g \rho \Delta{h}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(Q\)</span>: Find the volume flow rate from the slope.</p></li>
+<li><p><span class="math notranslate nohighlight">\(R_h\)</span>: Find the resistant of the tube from <span class="math notranslate nohighlight">\(\R_h = \frac{\Delta{P}}{Q}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(A^{-1}\)</span>: Find the inverse of cross-section area of the <strong>tube</strong>. <font color="red"><b>Note: Not the battery/container</b></font>.</p></li>
+</ul>
+</li>
+</ul>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>All calculations must come with error calculations!</p>
+</div>
+</div>
+<div class="section" id="part-2-plotting">
+<h2>Part 2: Plotting<a class="headerlink" href="#part-2-plotting" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Now, there are <strong>4 graphs</strong> you need to complete and submit.</p>
+<ul>
+<li><p>Graph 1,2,3: Plot Volume V (<span class="math notranslate nohighlight">\(cm^3\)</span>) vs Time (s).</p></li>
+<li><p>Graph 4: Plot <span class="math notranslate nohighlight">\(R_h\)</span> vs <span class="math notranslate nohighlight">\(A^{-1}\)</span>.</p></li>
+</ul>
+</li>
+</ul>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>If you use <span class="math notranslate nohighlight">\(cm^3\)</span>, please make sure to convert <span class="math notranslate nohighlight">\(\rho\)</span> to approriate unit.</p>
+</div>
+<ul class="simple">
+<li><p>Here is a demo for graph 1,2, and 3 for you to follow:</p></li>
+</ul>
+<div class="cell tag_hide-input docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Plotting </span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+
+<span class="c1"># Read in data</span>
+<span class="n">dic</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">:</span><span class="s2">&quot;Small&quot;</span><span class="p">,</span><span class="mi">2</span><span class="p">:</span><span class="s2">&quot;Medium&quot;</span><span class="p">,</span><span class="mi">3</span><span class="p">:</span><span class="s2">&quot;Large&quot;</span><span class="p">}</span>
+<span class="n">l</span> <span class="o">=</span> <span class="nb">list</span><span class="p">()</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">5</span><span class="p">):</span>
+    <span class="n">l</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;graph</span><span class="si">{</span><span class="n">i</span><span class="si">}</span><span class="s2">.csv&quot;</span><span class="p">,</span> <span class="n">delimiter</span><span class="o">=</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">assign</span><span class="p">(</span><span class="n">DiameterType</span><span class="o">=</span><span class="n">dic</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="k">if</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mi">4</span> <span class="k">else</span> <span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">))</span>
+
+<span class="n">d4</span><span class="o">=</span> <span class="n">l</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">(</span><span class="n">l</span><span class="p">,</span><span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+
+<span class="c1"># Initialize plots</span>
+<span class="n">sns</span><span class="o">.</span><span class="n">set_theme</span><span class="p">(</span><span class="n">style</span><span class="o">=</span><span class="s2">&quot;darkgrid&quot;</span><span class="p">,</span><span class="n">font_scale</span><span class="o">=</span><span class="mf">1.4</span><span class="p">,</span><span class="n">palette</span><span class="o">=</span><span class="s2">&quot;husl&quot;</span><span class="p">)</span>
+
+<span class="c1"># Plotting</span>
+<span class="n">g</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">lmplot</span><span class="p">(</span><span class="n">y</span><span class="o">=</span><span class="sa">r</span><span class="s2">&quot;volume(cm^3)&quot;</span><span class="p">,</span>
+               <span class="n">x</span><span class="o">=</span><span class="sa">r</span><span class="s2">&quot;Time (s)&quot;</span><span class="p">,</span>
+               <span class="n">data</span><span class="o">=</span><span class="n">df</span><span class="p">,</span>
+               <span class="n">col</span><span class="o">=</span><span class="s2">&quot;DiameterType&quot;</span><span class="p">,</span>
+               <span class="n">sharex</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+               <span class="n">sharey</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+               <span class="n">aspect</span><span class="o">=</span><span class="mf">1.2</span><span class="p">,</span><span class="n">scatter_kws</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;s&quot;</span><span class="p">:</span> <span class="mi">90</span><span class="p">}</span>
+          <span class="p">)</span>
+<span class="n">g</span><span class="o">.</span><span class="n">set_ylabels</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;Volume($cm^3$)&quot;</span><span class="p">)</span>
+<span class="c1"># Remove spine</span>
+<span class="n">sns</span><span class="o">.</span><span class="n">despine</span><span class="p">()</span>
+
+<span class="c1"># Show plot</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../../_images/lab7_6_0.png" src="../../_images/lab7_6_0.png" />
+</div>
+</div>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>In your excel sheet, make sure to show <strong>equation with slopes</strong>, <span class="math notranslate nohighlight">\({\bf R^2}\)</span>, and <strong>result of LINEST FUNCTION</strong>.</p>
+</div>
+<ul class="simple">
+<li><p>Here is another demo for the last graph:</p></li>
+</ul>
+<div class="margin sidebar">
+<p class="sidebar-title"></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Points without errors might lose marks!</p>
+</div>
+</div>
+<div class="cell tag_hide-input docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Ignore warnings for not enought data (not safe)</span>
+<span class="kn">import</span> <span class="nn">warnings</span>
+<span class="n">warnings</span><span class="o">.</span><span class="n">filterwarnings</span><span class="p">(</span><span class="s1">&#39;ignore&#39;</span><span class="p">)</span>
+<span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span><span class="mi">6</span><span class="p">))</span>
+<span class="n">plot4</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">regplot</span><span class="p">(</span><span class="n">y</span><span class="o">=</span><span class="s2">&quot;Rh (kg/m^4)&quot;</span><span class="p">,</span>
+                    <span class="n">x</span><span class="o">=</span><span class="s2">&quot;A^-1 (m^2)&quot;</span><span class="p">,</span>
+                    <span class="n">data</span><span class="o">=</span><span class="n">d4</span><span class="p">,</span>
+                    <span class="n">order</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span>
+                    <span class="n">scatter_kws</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;s&quot;</span><span class="p">:</span> <span class="mi">90</span><span class="p">}</span>
+                   <span class="p">)</span>
+<span class="n">plot4</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="sa">r</span><span class="s2">&quot;$R_h\ vs\ A^{-1}$&quot;</span><span class="p">,</span><span class="n">xlabel</span><span class="o">=</span><span class="sa">r</span><span class="s2">&quot;$A^{-1}\ (m^2)$&quot;</span><span class="p">,</span><span class="n">ylabel</span><span class="o">=</span><span class="sa">r</span><span class="s2">&quot;$R_h\ (\frac</span><span class="si">{kg}</span><span class="s2">{m^4})$&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../../_images/lab7_9_0.png" src="../../_images/lab7_9_0.png" />
+</div>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>For this graph, choose fit line to power instead of linear (Excel). Then, extract the power component.</p>
+</div>
+</div>
+<div class="section" id="discussion">
+<h2>Discussion<a class="headerlink" href="#discussion" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Does plotting <span class="math notranslate nohighlight">\(R\)</span> vs <span class="math notranslate nohighlight">\(A^{-1}\)</span> remind you of lab 6? What did we analyze?</p></li>
+<li><p>Basically, you want to see if they form a linear relationship as in electrical circuits (<span class="math notranslate nohighlight">\(R = \rho \frac{L}{A}\)</span>).</p></li>
+<li><p>Which power is consider linear?</p></li>
+</ul>
+</div>
+<div class="section" id="recordings">
+<h2>Recordings<a class="headerlink" href="#recordings" title="Permalink to this headline">¶</a></h2>
+<p>Coming Soon!</p>
 <div class="toctree-wrapper compound">
+</div>
 </div>
 </div>
 
