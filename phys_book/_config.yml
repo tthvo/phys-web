@@ -27,7 +27,7 @@ html:
     
 
 parse:
-  myst_extended_syntax: true
+  # myst_extended_syntax: true (deprecated)
 
 execute:
   jupyter_execute_notebooks: 'force'  
