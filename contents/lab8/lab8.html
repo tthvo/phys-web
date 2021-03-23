@@ -318,6 +318,23 @@
 
         <!-- Launch buttons -->
 
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/thuanGIT/phys-web.git/master?urlpath=tree/contents/lab8/lab8.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="../../_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
     </div>
 
     <!-- Table of contents -->
@@ -329,23 +346,45 @@
         <nav id="bd-toc-nav">
             <ul class="nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#part-1">
-   Part 1
+  <a class="reference internal nav-link" href="#overview">
+   Overview
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#part-2">
-   Part 2
+  <a class="reference internal nav-link" href="#concepts-of-right-hand-rules">
+   Concepts of Right Hand Rules
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#part-3">
-   Part 3
+  <a class="reference internal nav-link" href="#part-1-magnetic-field-of-a-solenoid">
+   Part 1: Magnetic Field of a Solenoid
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#part-4">
-   Part 4
+  <a class="reference internal nav-link" href="#part-2-force-on-a-moving-charge-in-a-magnetic-field">
+   Part 2: Force on a Moving Charge in a Magnetic Field
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#part-3-induced-voltages">
+   Part 3: Induced Voltages
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#section-1-lenz-s-law">
+     Section 1: Lenz’s Law
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#section-2-experiment-with-ophysiscs-simulator">
+     Section 2: Experiment with oPhysiscs simulator
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#part-4-explore">
+   Part 4: Explore
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -373,20 +412,212 @@
 <h1>Lab 8<a class="headerlink" href="#lab-8" title="Permalink to this headline">¶</a></h1>
 <p>Here are some stuffs for lab 8!</p>
 <hr class="docutils" />
-<div class="section" id="part-1">
-<h2>Part 1<a class="headerlink" href="#part-1" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>This lab is one of the shortest one (besides lab 6) so far.</p></li>
+<li><p>Knowledge in magnetic field model is required.</p></li>
+<li><p>Right Hand Rules are applied in most questions.</p></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Due date is 3 days after lab days</p>
 </div>
-<div class="section" id="part-2">
-<h2>Part 2<a class="headerlink" href="#part-2" title="Permalink to this headline">¶</a></h2>
 </div>
-<div class="section" id="part-3">
-<h2>Part 3<a class="headerlink" href="#part-3" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="concepts-of-right-hand-rules">
+<h2>Concepts of Right Hand Rules<a class="headerlink" href="#concepts-of-right-hand-rules" title="Permalink to this headline">¶</a></h2>
+<div class="tabbed-set docutils">
+<input checked="checked" id="0c1681d7-c17d-4851-b445-c25dd7f41cc9" name="93ad33c0-8532-4c29-89a4-ccd3aa152f99" type="radio">
+</input><label class="tabbed-label" for="0c1681d7-c17d-4851-b445-c25dd7f41cc9">
+Current carrying wire</label><div class="tabbed-content docutils">
+<p style="font-size:25px"><b>Explanation</b></p>
+<p>Thumb points in the direction of the current and the fingers curl around the wire in the direction of the magnetic field.</p>
+<div class="figure align-default" id="id1">
+<a class="reference internal image-reference" href="../../_images/rhr_current_lab8.png"><img alt="../../_images/rhr_current_lab8.png" src="../../_images/rhr_current_lab8.png" style="width: 182.0px; height: 223.0px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 1 </span><span class="caption-text">Right-hand rule for current carrying wire</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
-<div class="section" id="part-4">
-<h2>Part 4<a class="headerlink" href="#part-4" title="Permalink to this headline">¶</a></h2>
+</div>
+<input id="a6098e34-a4a9-49f2-8d07-4429df4f3dd1" name="93ad33c0-8532-4c29-89a4-ccd3aa152f99" type="radio">
+</input><label class="tabbed-label" for="a6098e34-a4a9-49f2-8d07-4429df4f3dd1">
+Current carrying solenoid</label><div class="tabbed-content docutils">
+<p style="font-size:25px"><b>Explanation</b></p>
+<p>Fingers curl in the direction of the current through the solenoid and the thum  b points in the direction of the magnetic field.</p>
+<div class="figure align-default" id="id2">
+<a class="reference internal image-reference" href="../../_images/rhr_solenoid_lab8.png"><img alt="../../_images/rhr_solenoid_lab8.png" src="../../_images/rhr_solenoid_lab8.png" style="width: 182.0px; height: 138.0px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 2 </span><span class="caption-text">Right-hand rule for current carrying solenoid</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<input id="f5a0c20b-8adb-415d-aa13-9edaa0940e3f" name="93ad33c0-8532-4c29-89a4-ccd3aa152f99" type="radio">
+</input><label class="tabbed-label" for="f5a0c20b-8adb-415d-aa13-9edaa0940e3f">
+Moving charge a magnetic field</label><div class="tabbed-content docutils">
+<p style="font-size:25px"><b>Explanation</b></p>
+<p>Force on a moving positive charge in a magnetic field:
+Thumb points in the direction of the velocity (electrons are negatively charged and therefore point in the opposite direction), fingers point in the direction of the magnetic field and the palm faces the direction of the force on the charge. Other sources suggest to bend the middle finger inwards so that it points along the direction of the force vector. An alternate version can be read in lab manual.</p>
+<div class="figure align-default" id="id3">
+<a class="reference internal image-reference" href="../../_images/rhr_movcharge_lab8.png"><img alt="../../_images/rhr_movcharge_lab8.png" src="../../_images/rhr_movcharge_lab8.png" style="width: 182.0px; height: 187.0px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 3 </span><span class="caption-text">Right-hand rule for moving charge in magnetic field.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="part-1-magnetic-field-of-a-solenoid">
+<h2>Part 1: Magnetic Field of a Solenoid<a class="headerlink" href="#part-1-magnetic-field-of-a-solenoid" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Before we go any further, lets look at the setup for this experiment:</p></li>
+</ul>
+<div class="figure align-default" id="id4">
+<a class="reference internal image-reference" href="../../_images/part1_setup_lab8.png"><img alt="../../_images/part1_setup_lab8.png" src="../../_images/part1_setup_lab8.png" style="width: 346.5px; height: 238.7px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4 </span><span class="caption-text">Part 1 set up</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+</div>
+<ul class="simple">
+<li><p>Here, you are required to perform only 1 calculation. Given the data below:</p></li>
+</ul>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="text-align:center head"><p>Data</p></th>
+<th class="text-align:center head"><p>Value</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-align:center"><p>Magnetic Field Strength</p></td>
+<td class="text-align:center"><p><span class="math notranslate nohighlight">\(0.26\pm0.03\)</span>(mT)</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p>Induced Current</p></td>
+<td class="text-align:center"><p><span class="math notranslate nohighlight">\(53.8\pm0.3\)</span>(mA)</p></td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li><p>The question is: What is the <strong>number of turns of wire per meter in the solenoid</strong>? Which formula will you use?</p></li>
+<li><p>Error calculation is required, so make sure you do it.</p></li>
+</ul>
+<div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<p>Convert data into approriate units. Why? Check the units of your <span class="math notranslate nohighlight">\(\mu_0\)</span>.</p>
+</div>
+</div>
+<div class="section" id="part-2-force-on-a-moving-charge-in-a-magnetic-field">
+<h2>Part 2: Force on a Moving Charge in a Magnetic Field<a class="headerlink" href="#part-2-force-on-a-moving-charge-in-a-magnetic-field" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Let’s consider 3 cases as in the manual.</p></li>
+<li><p>Recall magnetic force is exerted only moving charged objects in the magnetic field.</p></li>
+</ul>
+<div class="tabbed-set docutils">
+<input checked="checked" id="1e33bf9f-f27b-4583-9407-69f3b5b2c09d" name="3082b453-d1cc-4916-b75b-838cdee8e0c0" type="radio">
+</input><label class="tabbed-label" for="1e33bf9f-f27b-4583-9407-69f3b5b2c09d">
+North Pole</label><div class="tabbed-content docutils">
+<div class="figure align-default" id="id5">
+<a class="reference internal image-reference" href="../../_images/part2_n_lab8.png"><img alt="../../_images/part2_n_lab8.png" src="../../_images/part2_n_lab8.png" style="width: 361.0px; height: 132.0px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 5 </span><span class="caption-text">Set up for case 1 part 2</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<input id="b9c555e7-4224-4095-808e-eba703a3d746" name="3082b453-d1cc-4916-b75b-838cdee8e0c0" type="radio">
+</input><label class="tabbed-label" for="b9c555e7-4224-4095-808e-eba703a3d746">
+Magnet Midpoint</label><div class="tabbed-content docutils">
+<div class="figure align-default" id="id6">
+<a class="reference internal image-reference" href="../../_images/part2_mid_lab8.png"><img alt="../../_images/part2_mid_lab8.png" src="../../_images/part2_mid_lab8.png" style="width: 340.0px; height: 187.0px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 6 </span><span class="caption-text">Set up for case 2 part 2</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<input id="8a26d058-9411-4fde-b8a9-b7351867949c" name="3082b453-d1cc-4916-b75b-838cdee8e0c0" type="radio">
+</input><label class="tabbed-label" for="8a26d058-9411-4fde-b8a9-b7351867949c">
+Two solenoids</label><div class="tabbed-content docutils">
+<div class="figure align-default" id="id7">
+<a class="reference internal image-reference" href="../../_images/part2_sol_lab8.png"><img alt="../../_images/part2_sol_lab8.png" src="../../_images/part2_sol_lab8.png" style="width: 545.0px; height: 207.0px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 7 </span><span class="caption-text">Set up for case 3 part 2</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+</div>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p>The electron beam is shot out of the page. That also means these electrons are moving. Bringing a magnet near the beam creats a magnetic field around this beam.</p>
+</div>
+<ul class="simple">
+<li><p>Task for each case includes:</p>
+<ul>
+<li><p><strong>Step 0</strong>: Only for case 3 (solenoid), use a solenoid version of right-hand rule to find magnetic field direction at the center of each solenoid.</p></li>
+<li><p><strong>Step 1</strong>: Use Right-hand rules for moving charges to identify the direction of the magnetic force on the electron beam.</p></li>
+<li><p><strong>Step 2</strong>: Describe how you would use Right-hand rules (detailed explanation of step 1).</p></li>
+<li><p><strong>Step 3</strong>: Draw the magnetic field created by the magnet. For solenoid, draw the magnetic field at its center.</p></li>
+<li><p><strong>Step 4</strong>: Draw the force direction on the picture (visualize your finding).</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="part-3-induced-voltages">
+<h2>Part 3: Induced Voltages<a class="headerlink" href="#part-3-induced-voltages" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>This parts consists of 2 sub-parts (sections).</p></li>
+<li><p>The second one involves working with oPhysics simulator (link in manual).</p></li>
+</ul>
+<div class="section" id="section-1-lenz-s-law">
+<h3>Section 1: Lenz’s Law<a class="headerlink" href="#section-1-lenz-s-law" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Restate the Lenz’s Law <strong>(relating flux)</strong> that you have learned in lecture.</p></li>
+<li><p>You can be brief but include all essential information.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you like more details, why not? Time to revise!</p>
+</div>
+</div>
+<div class="section" id="section-2-experiment-with-ophysiscs-simulator">
+<h3>Section 2: Experiment with oPhysiscs simulator<a class="headerlink" href="#section-2-experiment-with-ophysiscs-simulator" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Either manually drag the magnet or automate the motion sinusoidally.</p></li>
+<li><p>There are two cases:</p>
+<ul>
+<li><p><font color="teal"><b>Magnet moving inside the solenoid.</b></font></p></li>
+<li><p><font color="red"><b>Magnet moving out of the solenoid.</b></font></p></li>
+</ul>
+</li>
+<li><p>For each case, do the following task:</p>
+<ul>
+<li><p><strong>Step 1</strong>: Follow each case to set the magnet moving accordingly.</p></li>
+<li><p><strong>Step 2</strong>: Record the direction of the current <font color="red"><b>(Red arrow &gt;)</b></font>. Picture in report sheet is similar to simulator setup.</p></li>
+<li><p><strong>Step 3</strong>: Use the current direction to figure out sign of the galvanometer’s readings.</p></li>
+</ul>
+</li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>If you are confused in how to transfer current direction from simulator to report sheet, use right-hand rule to get your result.</p>
+</div>
+</div>
+</div>
+<div class="section" id="part-4-explore">
+<h2>Part 4: Explore<a class="headerlink" href="#part-4-explore" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>You can have fun with another online simulator. In this case, it is a loop rotating in a magentic filed created by 2 magnets.</p></li>
+<li><p>There are <strong>no questions</strong> about this part. So, just have fun!</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>oPhysics is one of the most popular  websites with amazing simulators. For anyone in physics-related major, I would reccommend taking time playing with it!</p>
+</div>
 </div>
 <div class="section" id="discussion">
 <h2>Discussion<a class="headerlink" href="#discussion" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Notice there are 2 last conceptual questions that you need to infer from observations.</p></li>
+<li><p><strong>Galvanometer’s readings sign</strong>: <mark>Find direction of induced current</mark></p>
+<ul>
+<li><p>Current goes into <font color="red"><b>+ terminal</b></font> &lt;=&gt; readings are positive</p></li>
+<li><p>Current goes into <font color="teal"><b>- terminal</b></font>. &lt;=&gt; readings are negative</p></li>
+</ul>
+</li>
+<li><p><strong>Brightness of light bulb</strong>: <mark>Try a higher speed in the simulator</mark></p>
+<ul>
+<li><p>Intensity/Brightness is the power per unit area. Now, assumed we look at the bulb at a <strong>fixed distance</strong>.</p></li>
+<li><p>Power in electric circuit model: <span class="math notranslate nohighlight">\(P = \frac{\epsilon^2}{R^2}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\epsilon\)</span> is the induced potential difference, which has a formula <span class="math notranslate nohighlight">\(\epsilon = |\frac{d\phi_m}{dt}|\)</span>.</p></li>
+</ul>
+</li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p><span class="math notranslate nohighlight">\(\frac{d\phi_m}{dt}\)</span> is the change in flux over a surface area.</p>
+</div>
 </div>
 <div class="section" id="recordings">
 <h2>Recordings<a class="headerlink" href="#recordings" title="Permalink to this headline">¶</a></h2>
