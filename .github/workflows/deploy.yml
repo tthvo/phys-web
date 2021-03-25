@@ -36,4 +36,5 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3.6.1
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: phys_book/_build/html
+        publish_dir: ./phys_book/_build/html
+        full_commit_message: ${{ github.event.head_commit.message }}
