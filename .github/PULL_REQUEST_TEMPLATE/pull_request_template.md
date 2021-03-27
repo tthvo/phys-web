@@ -26,6 +26,9 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 * Toolchain:
 * SDK:
 
+**Screenshots of built documentation:**
+<!--Put your screenshots here!-->
+
 # Checklist:
 
 - [ ] My code follows the style guidelines of this project
