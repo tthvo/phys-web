@@ -8,9 +8,9 @@ This is an open-source project to all Physics TA at UBC Okanagan. This book mana
 
 If you'd like to develop on and continue to build the phys-book book, you should:
 
-- Clone this repository and run
-- Run `pip install -r requirements.txt` if you are using venv to create virtual environment.
-- If you are using Conda as package manager, run `conda env create -f environment.yml`
+- Clone this repository.
+- Please use conda as the package manger. Install miniconda as instructed on their website [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html).
+- After isntallation, run `conda env create -f environment.yml`
 - (Recommended) Remove the existing `phys-book/_build/` directory
 - Run `jupyter-book build phys-book/`
 
