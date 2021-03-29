@@ -29,7 +29,7 @@ html:
 parse:
   # (deprecated in >= v0.10.0)
   # This allows ::: syntax, which is friendly for markdown syntax rendering
-  myst_extended_syntax: true 
+  # myst_extended_syntax: true 
 
 execute:
   jupyter_execute_notebooks: 'force'  
