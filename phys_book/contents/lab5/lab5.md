@@ -103,7 +103,7 @@ Filling the entire length ensures that it behaves like a line of charges. Otherw
 
 - You have the equation:
 
-$$\lambda = \frac{n * q}{L} (C/m)$$
+$$\lambda = \frac{n  q}{L} (C/m)$$
 
 where:
 
@@ -151,10 +151,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Loading dada
-part3_2 = (pd.read_csv("../../data/part3_2.csv", delimiter=",", dtype=float)
+part3_2 = (pd.read_csv("../../data/part3_2_lab5.csv", delimiter=",", dtype=float)
              .rename(columns={"x(m)":"x", "Vx(V)":"Vx"})
           )
-part3_3 = (pd.read_csv("../../data/part3_3.csv", delimiter=",", dtype=float)
+part3_3 = (pd.read_csv("../../data/part3_3_lab5.csv", delimiter=",", dtype=float)
              .rename(columns={"1/x(1/m)":"1/x", "Ex(V/m)":"Ex"})
           )
 # Settings

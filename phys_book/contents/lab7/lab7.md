@@ -119,7 +119,7 @@ import matplotlib.pyplot as plt
 dic = {1:"Small",2:"Medium",3:"Large"}
 l = list()
 for i in range(1,5):
-    l.append(pd.read_csv(f"../../data/graph{i}.csv", delimiter="\t").assign(DiameterType=dic[i] if i < 4 else np.nan))
+    l.append(pd.read_csv(f"../../data/graph{i}_lab7.csv", delimiter="\t").assign(DiameterType=dic[i] if i < 4 else np.nan))
 
 d4= l.pop()
 df = pd.concat(l,axis=0)
