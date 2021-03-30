@@ -31,5 +31,5 @@ parse:
   # This allows ::: syntax, which is friendly for markdown syntax rendering
   # myst_extended_syntax: true 
 
-execute:
-  jupyter_execute_notebooks: 'force'  
+# execute:
+#   jupyter_execute_notebooks: 'force'  
