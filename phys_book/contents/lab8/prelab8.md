@@ -1,7 +1,19 @@
+---
+jupytext:
+  text_representation:
+    extension: .md
+    format_name: myst
+kernelspec:
+  display_name: Python 3
+  language: python
+  name: python3
+---
 # Pre lab 8
 
 Here are some help for Pre lab 8!
 ___
+
++++
 
 ## Part 1
 
@@ -19,6 +31,8 @@ Look back at Lab 6!
 There are rules with drawing magnetic field lines that you should take into consideration. E.g. lines do not touch.
 ```
 
++++
+
 ## Part 2
 
 - This is just a restatement of the **Right Hand Rule For Solenoids**.
@@ -27,6 +41,8 @@ There are rules with drawing magnetic field lines that you should take into cons
 ```{tip}
 If words are not enough for you, please feel free to visualize it with a drawing.
 ```
+
++++
 
 ## Part 3
 
@@ -37,6 +53,8 @@ If words are not enough for you, please feel free to visualize it with a drawing
 What is the general name of the device to measure that quantity that you just found out?
 ```
 
++++
+
 ## Part 4
 
 - Use the right hand rules for this part!
@@ -46,10 +64,14 @@ What is the general name of the device to measure that quantity that you just fo
 The right hand rule works a little different for moving negative charge!
 ```
 
++++
+
 ## Part 5
 
 - For this question, you need to look at the dependencies of $B$.
 - That means you need look at the formula for $B$ and see if any changes of the component terms affect $B$ as described.
+
++++
 
 ## Part 6
 
@@ -72,6 +94,8 @@ The right hand rule works a little different for moving negative charge!
 ```{tip}
 Look at the formula for magnetic force on moving charge: $\vec{F} = q \vec{v}\times\vec{B}$.
 ```
+
++++
 
 ## Part 7
 

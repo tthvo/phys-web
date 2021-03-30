@@ -1,7 +1,19 @@
+---
+jupytext:
+  text_representation:
+    extension: .md
+    format_name: myst
+kernelspec:
+  display_name: Python 3
+  language: python
+  name: python3
+---
 # Lab 8
 
 Here are some stuffs for lab 8!
 ___
+
++++
 
 ## Overview
 
@@ -12,6 +24,8 @@ ___
 ```{warning}
 Due date is 3 days after lab days!
 ```
+
++++
 
 ## Concepts of Right Hand Rules
 
@@ -47,6 +61,8 @@ Right-hand rule for moving charge in magnetic field.
 ```
 ````
 
++++
+
 ## Part 1: Magnetic Field of a Solenoid
 
 - Before we go any further, lets look at the setup for this experiment:
@@ -69,6 +85,8 @@ Part 1 set up
 ```{caution}
 Convert data into approriate units. Why? Check the units of your $\mu_0$.
 ```
+
++++
 
 ## Part 2: Force on a Moving Charge in a Magnetic Field
 
@@ -107,6 +125,8 @@ The electron beam is shot out of the page. That also means these electrons are m
   - **Step 3**: Draw the magnetic field created by the magnet. For solenoid, draw the magnetic field at its center.
   - **Step 4**: Draw the force direction on the picture (visualize your finding).
 
++++
+
 ## Part 3: Induced Voltages
 
 - This parts consists of 2 sub-parts (sections).
@@ -136,6 +156,8 @@ If you like more details, why not? Time to revise!
 If you are confused in how to transfer current direction from simulator to report sheet, use right-hand rule to get your result.
 ```
 
++++
+
 ## Part 4: Explore
 
 - You can have fun with another online simulator. In this case, it is a loop rotating in a magentic filed created by 2 magnets.
@@ -144,6 +166,8 @@ If you are confused in how to transfer current direction from simulator to repor
 ```{note}
 oPhysics is one of the most popular  websites with amazing simulators. For anyone in physics-related major, I would reccommend taking time playing with it!
 ```
+
++++
 
 ## Discussion
 
@@ -161,6 +185,8 @@ oPhysics is one of the most popular  websites with amazing simulators. For anyon
 ```{tip}
 $\frac{d\phi_m}{dt}$ is the change in flux over a surface area.
 ```
+
++++
 
 ## Recordings
 
