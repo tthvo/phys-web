@@ -19,7 +19,7 @@ repository:
 
 
 # Settings for book building
-only_build_toc_files: true
+# only_build_toc_files: true
 
 # Settings for HTML
 html:
