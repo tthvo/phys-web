@@ -18,7 +18,6 @@ Help for Pre lab 3 is here!
 ___
 
 
-
 ```{code-cell} ipython3
 :tags: [remove-input]
 

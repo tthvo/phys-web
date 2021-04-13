@@ -1,17 +1,13 @@
 ---
-jupyter:
-  jupytext:
-    text_representation:
-      extension: .md
-      format_name: markdown
-      format_version: '1.3'
-      jupytext_version: 1.10.3
-  kernelspec:
-    display_name: 'Python 3.8.6 64-bit (''phys-web'': conda)'
-    metadata:
-      interpreter:
-        hash: be47870efd714ff30f266d670a7a9c976de1e1237e1553a6afdeab2801221655
-    name: python3
+jupytext:
+  formats: md:myst
+  text_representation:
+    extension: .md
+    format_name: myst
+kernelspec:
+  display_name: Python 3
+  language: python
+  name: python3
 ---
 
 # Lab 2
@@ -98,12 +94,13 @@ Listen carefully. Some frequency readings increases while other decreases. Why? 
 - Here is an demonstration of what your graph might look like:
 <!-- #endregion -->
 
-```python tags=["hide-input"]
+```{code-cell} ipython3
+:tags: [hide-input]
 import altair as alt
 import pandas as pd
 import numpy as np
 
-data = pd.read_csv('./lab2.csv', delimiter=',').rename(columns={'Number of Anti_nodes': 'n', 'f (Hz)': 'f','f error (Hz)': 'f_error'})
+data = pd.read_csv('../../data/lab2.csv', delimiter=',').rename(columns={'Number of Anti_nodes': 'n', 'f (Hz)': 'f','f error (Hz)': 'f_error'})
 
 chart = alt.Chart(data, height=300, width=300).mark_circle(
     color='teal', 
