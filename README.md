@@ -11,8 +11,8 @@ If you'd like to develop on and continue to build the phys-book book, you should
 - Clone this repository.
 - Please use conda as the package manger. Install miniconda as instructed on their website [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html).
 - After isntallation, run `conda env create -f environment.yml`
-- (Recommended) Remove the existing `phys-book/_build/` directory
-- Run `jupyter-book build phys-book/`
+- (Recommended) Remove the existing `phys-book/_build/` directory (if present).
+- Run `jupyter-book build {path_to_book}`. Here, if your cwd is the project directory, then your path_to_book is `phys-book/`. 
 
 A fully-rendered HTML version of the book will be built in `phys-book/_build/html/`.
 
