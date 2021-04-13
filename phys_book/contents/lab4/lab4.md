@@ -9,7 +9,6 @@ kernelspec:
   language: python
   name: python3
 ---
-
 # Lab 4
 
 Here are some help for lab 4.
