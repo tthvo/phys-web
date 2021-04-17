@@ -1,18 +1,14 @@
 ---
 jupytext:
+  formats: md:myst
   text_representation:
     extension: .md
     format_name: myst
-    format_version: 0.13
-    jupytext_version: 1.10.3
 kernelspec:
-  display_name: Python 3.8.6 64-bit
-  metadata:
-    interpreter:
-      hash: be47870efd714ff30f266d670a7a9c976de1e1237e1553a6afdeab2801221655
+  display_name: Python 3
+  language: python
   name: python3
 ---
-
 # Lab 4
 
 Here are some help for lab 4.
