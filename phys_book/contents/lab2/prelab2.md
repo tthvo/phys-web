@@ -15,7 +15,7 @@ kernelspec:
 Help on pre lab 2 is here
 ___
 
-```{code-cell} ipython3 
+```{code-cell} ipython3
 :tags: [hide-input]
 
 from PIL import Image
@@ -31,7 +31,6 @@ glue('3_anti',im3,display=False)
 glue('graph', graph,display=False)
 ```
 
-<!-- #region -->
 ## Part 1
 
 - Here, you will need to derive a formula for $\pmb{\lambda}$ from L and n (number of antinodes).
@@ -40,29 +39,24 @@ glue('graph', graph,display=False)
 
 | 1 Antinode | 2 Antinodes | 3 Antinodes |
 |:----:|:----:|:----:|
-|{glue:}`1_anti`|{glue:}`2_anti`|{glue:}`3_anti`|
-
+|```{glue:figure} 1_anti One Antinode.```|```{glue:figure} 2_anti Two Antinodes.```|```{glue:figure} 3_anti Three Antinodes.```|
 
 ```{tip}
 Antinodes are points of maximum amptitude! Look to see which quantity is changing according to each case.
 ```
 
-<!-- #endregion -->
-
-
-
-<!-- #region -->
 ## Part 2
 
 - This one requires a little bit of algebra <font color= 'red'><b>(getting yourself really cuz its gonna get messy!)</b></font>
 
-- We can summarize from the graph {glue:}`graph`: 
+- We can summarize from the graph {glue:}`graph`:
 
-````{panels} 
+````{panels}
 Graph
 ^^^
 ```{glue:figure} graph
 :figwidth: 300px
+Mass vs inverse squared of n plot.
 ```
 
 ---
@@ -77,11 +71,9 @@ Summary
 
 ````
 
-
-- $v = \sqrt{\frac{T}{\mu}} = f * \lambda$ (1) where: 
-
-    - $\lambda$ = **your findings in part 1**
-    - $T = m * g$ (2), mass hanging on a spring right?
+- $v = \sqrt{\frac{T}{\mu}} = f * \lambda$ (1) where:
+  - $\lambda$ = **your findings in part 1**
+  - $T = m * g$ (2), mass hanging on a spring right?
 
 - Now, look back at the graph. Ask yourself this question: <mark>Which one is the ***independent variable*** and which is the ***dependent variable***?</mark>
 
@@ -90,4 +82,3 @@ Summary
 ```{tip}
 Your bunch of terms that multiplies with the independent variable (not including the variable) is the slope! 
 ```
-<!-- #endregion -->

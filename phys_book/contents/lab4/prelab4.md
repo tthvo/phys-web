@@ -13,8 +13,7 @@ kernelspec:
 # Pre Lab 4
 
 Welcome back everyone! Here is your help on Pre Lab 4
-___ 
-
+___
 +++
 
 ## Part 1
@@ -25,6 +24,7 @@ ___
 The answer is right in the lab manual
 ```
 ````
+
 - Basically, question need you tell me what Coulomb's Law is.
 - What I want from you is: **brief description** and **main formula**.
 
@@ -40,7 +40,6 @@ You can try it yourself!
 
 - Next, this is a conceptual question. There is nothing tricky here!
 - This is a very common question on **electrostatic induction**.
-
 
 +++
 

@@ -15,7 +15,6 @@ kernelspec:
 Here you can find all stuffs related to Lab 1
 ___
 
-
 ## Overview
 
 For complete guide on the experiment, please read the lab manual on Canvas [here](https://canvas.ubc.ca/courses/69484/files/12331275?module_item_id=2840042).
@@ -24,7 +23,6 @@ In lab 1, you will only **do analysis with pre-recorded videos**. There are 7 vi
 
 You have to extract information from the videos (i.e. period of motion) and conduct video analysis in LoggerPro(Part 1_4).
 
-<!-- #region -->
 ## Part 1: Simple Harmonic Motion
 
 Before we start, here is a table of some information needed to calculations.
@@ -46,28 +44,31 @@ Force probe is zeroed at the point of equilibrium for each case.
 - You only need to look at the Youtube videos and extract the **motion period**.
 - Then, calculate $f = \frac{1}{T}$ and $\omega = 2*\pi*f$.
 - <mark>Find period</mark>:
-    - You need to use equation (2). $T = \frac{\Delta{t}}{n}$, where n: #oscillations.
-    - Choose a point on the graph that align with one of the axis ticks. Then choose another point at later time that the object returns to that exact value (i.e. y-value) and also aligns with a tick.
-    - Record the different in time.
-    - Count the number of oscillations between them. Basically, **count the number of ticks including themselves - 1**.
-    - Here is an example:
-    
-![](../../images/lab1/lab1_period.jpg)
+  - You need to use equation (2). $T = \frac{\Delta{t}}{n}$, where n: #oscillations.
+  - Choose a point on the graph that align with one of the axis ticks. Then choose another point at later time that the object returns to that exact value (i.e. y-value) and also aligns with a tick.
+  - Record the different in time.
+  - Count the number of oscillations between them. Basically, **count the number of ticks including themselves - 1**.
+  - Here is an example:
+
+```{figure} ../../images/lab1/lab1_period.jpg
+Same findings of oscillation period.
+```
 
 ```{caution}
 Here my index goes from 0. So there is a total of 12 ticks.
 ```
 
-
 ### Section 1.4
-    
+
 - You have your video on Canvas. Download and insert into Logger Pro.
 - **Set the scale to be from horizontal bar down to the table**
 - Plot position vs time graph of the motion by specifying positions of the object (hanger + mass) in each frame.
 - When you are done, **sketch the shape of graph into your report sheet**.
 - Here is a demo for you to follow:
 
-![](../../images/lab1/lab1_part1_4.jpg)
+```{figure} ../../images/lab1/lab1_part1_4.jpg
+Sketches of displacement and velocity plots.
+```
 
 ```{tip}
 Hide the previous points to avoid cluster. And set the frame per second to 2.
@@ -76,6 +77,7 @@ Hide the previous points to avoid cluster. And set the frame per second to 2.
 <!-- #endregion -->
 
 ## Part 2: Damped Simple Harmonic Motion
+
 - Part 2 is similar to part 1.1-1.3. All you have to do is to extract the period to calculate angular frequency $\omega$.
 - Then, we want to compare it to one of our trial in part 1.1 - 1.3: **Hint: Look at the combined mass.**
 
@@ -89,7 +91,9 @@ Which equation does not assume anything but rather use only data on from generat
 
 - Below is the picture of the graph that you want to take the period from.
 
-![](../../images/lab1/lab1_damp.jpg)
+```{figure} ../../images/lab1/lab1_damp.jpg
+Damped Oscillation Demo.
+```
 
 ```{tip}
 Why can we do that? Basically, the system energy is lost (max y-value is smaller with time). However, your frequency is not affected. Thus, angular frequency $\omega$ is not.
@@ -103,14 +107,9 @@ Why can we do that? Basically, the system energy is lost (max y-value is smaller
 - Extract $\omega_{damped}$ and compare to part 1.1-1.3.
 - [Download Part 1.1_1.3 Excel Template](https://docs.google.com/spreadsheets/d/e/2PACX-1vRzJJjfgeLcQuS1L45VlsObmCSQuhqCSLJCvZVdfvCjzC_Ki31w3XtpX5_JkCY9Xb4u6DVfC8tZy1Ox/pub?output=xlsx)
 
-
-
-
-
 ```{caution}
 Please use the report template to write. If not, your report won't be marked (not my decision tho - lab manager said so).
 ```
-
 
 ## Discussion Questions
 
@@ -122,9 +121,8 @@ Please use the report template to write. If not, your report won't be marked (no
 We study only 2 main types of energy in this motion. What are they?
 ```
 
-
 ## Recordings
+
 - For introduction to physics lab, please [Click Here](https://ubc.zoom.us/rec/share/g-_y_Mf_nx94CwYkEiswMXkg5iKS2owo-2SE8dAoHzxReV4Frqr5rgNcyNM4bHNk.G0eAFEwhiZx49gBH?startTime=1611945511000)
 
 - For Lab 1 stuffs, please [Click Here](https://ubc.zoom.us/rec/share/g-_y_Mf_nx94CwYkEiswMXkg5iKS2owo-2SE8dAoHzxReV4Frqr5rgNcyNM4bHNk.G0eAFEwhiZx49gBH?startTime=1611946556000)
-

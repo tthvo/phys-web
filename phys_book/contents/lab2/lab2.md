@@ -16,7 +16,6 @@ Here are some stuffs for lab2!
 
 ____
 
-
 ## Overview
 
 - This lab might look a little intimidating but it will turn out pretty chilled.
@@ -25,13 +24,13 @@ ____
 
 - Relax and you can do it!
 
-
 ## Part 1: Tension Calculation
-- This is straightforward. And I hope everyone now knows how to calculate this. 
+
+- This is straightforward. And I hope everyone now knows how to calculate this.
+
 ```{tip}
 Go back to pre lab 2 tension equation(2) for help!
 ```
-
 
 ## Part 2: Natural frequency & Pitch
 
@@ -45,10 +44,6 @@ Go back to pre lab 2 tension equation(2) for help!
 Objects (every? maybe) has natural frequency, in which it oscillate without any directly applied forces.
 ```
 
-
-
-
-
 ## Part 3: Frequency Extraction
 
 - Now, there are **6 videos** corresponding to the number of anti-nodes in each case.
@@ -56,20 +51,16 @@ Objects (every? maybe) has natural frequency, in which it oscillate without any 
 - All you want to extract is <font color='red'><b>range of frequency that the string has the largest amplitude</b></font>.
 
 - <mark>Steps to do that</mark>:
-    - Step 1: Play the video. Of couse heh!
-    - Step 2: Notice the first frequency mark that the string oscillates largely.  Record error (~$\pm{0.2} Hz$).
-    - Step 3: Notice the frequency mark that the string appears to "shrink". Record error (~$\pm{0.2} Hz$).
-    - Step 4: Take the average to find the approximated frequency (according to the lab manual). Find the error of averaging.
+  - Step 1: Play the video. Of couse heh!
+  - Step 2: Notice the first frequency mark that the string oscillates largely.  Record error (~$\pm{0.2} Hz$).
+  - Step 3: Notice the frequency mark that the string appears to "shrink". Record error (~$\pm{0.2} Hz$).
+  - Step 4: Take the average to find the approximated frequency (according to the lab manual). Find the error of averaging.
 
 - Enter your data in page 1.
 
 ```{caution}
 Listen carefully. Some frequency readings increases while other decreases. Why? Dr. H's choice? No idea.
 ```
-    
-
-
-
 
 ## Part 4: Calculate $\lambda$
 
@@ -77,19 +68,19 @@ Listen carefully. Some frequency readings increases while other decreases. Why? 
 
 - Enter your data to the table in page 1.
 
-<!-- #region -->
 ## Part 5: Plot and linear Fit
 
 - In this part, you will have to plot your data in Logger Pro.
-- <mark>Steps to plot your data</mark>:
-    - Enter values of "n" to X column. Enter the values of frequency to Y column. (go back to Pre lab 1)
-    - Create a new column: 
-        - **Select Data > New Manual Column > Options header**.
-        - **Check Error bar calculations**.
-        - **Select Fixed value**.
+  - <mark>Steps to plot your data</mark>:
+  - Enter values of "n" to X column. Enter the values of frequency to Y column. (go back to Pre lab 1)
+  - Create a new column:
+    - **Select Data > New Manual Column > Options header**.
+    - **Check Error bar calculations**.
+    - **Select Fixed value**.
 
-![](../../images/lab2/add_column.png)
-
+```{figure} ../../images/lab2/add_column.png
+How to add a new column in LoggerPro.
+```
 
 - Here is an demonstration of what your graph might look like:
 <!-- #endregion -->
@@ -139,7 +130,6 @@ This is just a demo. Your graph should be in Logger Pro, which might look differ
 Go to pre lab 2 again!
 ```
 
-
 ## Part 7: Describe observations
 
 - There are **3 videos** to watch and answer related questions in the report sheet.
@@ -152,18 +142,15 @@ Go to pre lab 2 again!
 Listen carefully! Dr. H gave away the explanation as he did the experiment!
 ```
 
-
 ## Data Collection and Analysis
 
 ````{margin}
 ```{error}
 Excel sheet has an error on velocity column!
 ````
--  Complete table for page 1 (Part 1,3,5,6). The below excel sheet will help you!
+
+- Complete table for page 1 (Part 1,3,5,6). The below excel sheet will help you!
 - [Download Excel Template](https://docs.google.com/spreadsheets/d/e/2PACX-1vRAQbU1WT9LTW74JDTUguWd6Vcxvokxwkpgg5uOfV9XhA0Z3NokKYqnrwWIyuTdEVlFbwMzPE9xcfkF/pub?output=xlsx)
-
-
-
 
 ## Uncertainties Calculation
 
@@ -171,14 +158,15 @@ Excel sheet has an error on velocity column!
 
 - **I would recommend doing it without Excel Sheet for practice!**
 
-
 ## Discussion Question
 
 - Basically, you need to explain: At the point in contact of the vibrator (which was vibrating/moving), why is that point consider a node?
 
 - Here is a illustration for you:
 
-![](../../images/lab2/discussion_lab2.jpg)
+```{figure} ../../images/lab2/discussion_lab2.jpg
+Visualization of vibrating source.
+```
 
 - One more thing he asks is how you would reduce such error about that assumptions.
 
@@ -186,17 +174,6 @@ Excel sheet has an error on velocity column!
 Just use common sense!
 ```
 
-
-
-
-
 ## Recordings
 
 - Lab Procedure. [Click Here](https://ubc.zoom.us/rec/share/KxPjPEo_hgUsVKjzZz9SWcQvwHCNEHhe7MPT7S-M7yBnZ5ZsD433fsmaARgTKBS2.TUJqnxWHEjOx9LmC)
-
-
-
-
-
-
-

@@ -3,8 +3,6 @@ jupytext:
   text_representation:
     extension: .md
     format_name: myst
-    format_version: 0.13
-    jupytext_version: 1.10.3
 kernelspec:
   display_name: Python 3
   language: python
@@ -16,7 +14,6 @@ kernelspec:
 Help for Pre lab 3 is here!
 
 ___
-
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -57,7 +54,6 @@ This the rod that is questioning you!
 
 - If you do not know, I suggest going back to your lecture note on ***Sound Wave***.
 
-
 ```{tip}
 Are there fixed boundaries in this case? What the presence of fixed boundaries mean to your wave pattern?
 ```
@@ -78,11 +74,7 @@ These are two different cases corresponding your answer in Part 1. One of them i
 
 |Antinodes at 2 ends|Nodes at two ends|
 |:---:|:---:|
-|{glue:}`antinode`|{glue:}`node`|
-
-+++
-
-
+|```{glue:figure} antinode Antinode at 2 ends```|```{glue:figure} node Nodes at 2 ends.```|
 
 +++
 

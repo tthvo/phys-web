@@ -48,6 +48,7 @@ Electric field lines are going from higher potential to lower potential and perp
 
 ```{figure} ../../images/lab5/part1.png
 :scale: 50
+Electric Dipole Simulation.
 ```
 
 ```{warning}
@@ -70,6 +71,7 @@ In case you don't see the potential you're looking for, move the device up and d
 
 ```{figure} ../../images/lab5/part2.png
 :scale: 41
+Like charges simulations.
 ```
 
 ```{caution}
@@ -97,6 +99,7 @@ Filling the entire length ensures that it behaves like a line of charges. Otherw
 
 ```{figure} ../../images/lab5/part3.png
 :scale: 40
+Line of same charges.
 ```
 
 ### Section 1: Find the charge per unit length λ

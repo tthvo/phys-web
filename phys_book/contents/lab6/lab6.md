@@ -34,6 +34,7 @@ ___
 
 ```{figure} ../../images/lab6/demo_lab6.jpg
 :scale: 70
+Exmperimental setup.
 ```
 
 ````{margin}

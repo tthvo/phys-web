@@ -28,6 +28,7 @@ ___
 
 ```{figure} ../../images/lab7/fluid_note_lab7.jpeg
 :scale: 50
+A quick walk through Fluid Dynamics.
 ```
 
 +++
@@ -36,6 +37,7 @@ ___
 
 ```{figure} ../../images/lab7/analogy_lab7.jpg
 :scale: 40
+Comparison with electrical circuit.
 ```
 
 ```{note}
@@ -64,6 +66,7 @@ Make sure to keep track your units! Do not mix them up!
 
 ```{figure} ../../images/lab7/setup_lab7.jpg
 :scale: 50
+Experimental setup
 ```
 
 ## Section 1: Collection
@@ -193,6 +196,7 @@ For this graph, choose fit line to power instead of linear (Excel). Then, extrac
 
 ```{figure} ../../images/lab7/Error_Note.png
 :scale: 50
+Error Calculation Practice
 ```
 
 ```{Attention}
