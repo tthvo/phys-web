@@ -20,7 +20,7 @@ ___
 
 - I know this is really subjective as I base everything on what I learnt and experienced. So, before we begin, let me mark my word here.
 
-> Skills are what you need. 
+> Skills are what you need.
 > It is your choice to decide your way to learn it.
 
 - In other words, you don't have to follow me. Just know those skills are the essential skills!

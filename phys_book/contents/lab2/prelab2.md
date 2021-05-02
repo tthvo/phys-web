@@ -39,7 +39,7 @@ glue('graph', graph,display=False)
 
 | 1 Antinode | 2 Antinodes | 3 Antinodes |
 |:----:|:----:|:----:|
-|```{glue:figure} 1_anti One Antinode.```|```{glue:figure} 2_anti Two Antinodes.```|```{glue:figure} 3_anti Three Antinodes.```|
+|```{glue:figure} 1_anti One Antinode```|```{glue:figure} 2_anti Two Antinodes```|```{glue:figure} 3_anti Three Antinodes```|
 
 ```{tip}
 Antinodes are points of maximum amptitude! Look to see which quantity is changing according to each case.
@@ -56,7 +56,7 @@ Graph
 ^^^
 ```{glue:figure} graph
 :figwidth: 300px
-Mass vs inverse squared of n plot.
+Mass vs inverse squared of n plot
 ```
 
 ---

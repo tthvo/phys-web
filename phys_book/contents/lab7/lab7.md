@@ -28,7 +28,7 @@ ___
 
 ```{figure} ../../images/lab7/fluid_note_lab7.jpeg
 :scale: 50
-A quick walk through Fluid Dynamics.
+A quick walk through Fluid Dynamics
 ```
 
 +++
@@ -37,7 +37,7 @@ A quick walk through Fluid Dynamics.
 
 ```{figure} ../../images/lab7/analogy_lab7.jpg
 :scale: 40
-Comparison with electrical circuit.
+Comparison with electrical circuit
 ```
 
 ```{note}

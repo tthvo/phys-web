@@ -79,7 +79,7 @@ Listen carefully. Some frequency readings increases while other decreases. Why? 
     - **Select Fixed value**.
 
 ```{figure} ../../images/lab2/add_column.png
-How to add a new column in LoggerPro.
+How to add a new column in LoggerPro
 ```
 
 - Here is an demonstration of what your graph might look like:
@@ -165,7 +165,7 @@ Excel sheet has an error on velocity column!
 - Here is a illustration for you:
 
 ```{figure} ../../images/lab2/discussion_lab2.jpg
-Visualization of vibrating source.
+Visualization of vibrating source
 ```
 
 - One more thing he asks is how you would reduce such error about that assumptions.

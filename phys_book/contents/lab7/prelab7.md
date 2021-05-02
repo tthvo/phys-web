@@ -26,7 +26,7 @@ $$\rho = \frac{m}{V}$$
 
 ```{figure} ../../images/lab7/battery_lab7.jpeg
 :scale: 40
-Visualization of fluid container.
+Visualization of fluid container
 ```
 
 - So, do you remember how to the find the volume, given cross-section area function **(the same at all height)** and height?

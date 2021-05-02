@@ -34,14 +34,14 @@ ___
 - Step 2: Select *Analyze > Linear Fit*.
 
 ```{figure} ../../images/lab1/lab1_linear_fit.jpg
-How to use Linear Fit Tool.
+How to use Linear Fit Tool
 ```
 
 - Step 3: A box appears. Make sure it shows uncertainties (double click it for settings).
 - Step 4: Change x- and y-axis label (Name and Units) by *Data > Column options*.
 
 ```{figure} ../../images/lab1/lab1_axis_format.jpg
-How to format axises.
+How to format axises
 ```
 
 - Step 5: Extract your k values. Where? Look into this formula:

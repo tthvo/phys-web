@@ -26,7 +26,7 @@ html:
   home_page_in_navbar: true
     
 
-parse:
+# parse:
   # (deprecated in >= v0.10.0)
   # This allows ::: syntax, which is friendly for markdown syntax rendering
   # myst_extended_syntax: true 

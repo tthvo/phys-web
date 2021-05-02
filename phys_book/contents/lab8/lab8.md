@@ -57,7 +57,7 @@ Force on a moving positive charge in a magnetic field:
 Thumb points in the direction of the velocity (electrons are negatively charged and therefore point in the opposite direction), fingers point in the direction of the magnetic field and the palm faces the direction of the force on the charge. Other sources suggest to bend the middle finger inwards so that it points along the direction of the force vector. An alternate version can be read in lab manual.
 ```{figure} ../../images/lab8/rhr_movcharge_lab8.png
 :scale: 50
-Right-hand rule for moving charge in magnetic field.
+Right-hand rule for moving charge in magnetic field
 ```
 ````
 

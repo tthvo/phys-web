@@ -22,10 +22,11 @@ ___
 
 $$E_{s} = -\frac{dV}{ds}$$
 
-- The formula is derived as such: 
+- The formula is derived as such:
 
 ```{figure} ../../images/lab5/concept_lab5.jpg
 :scale: 40%
+Relationship between electric potential and eletric field
 ```
 
 - Question: Why is this important? Answer: **The electric field is the negative of the slope of potential vs distance graph!**
@@ -36,7 +37,10 @@ $$E_{s} = -\frac{dV}{ds}$$
 :tags: [hide-input]
 
 import matplotlib.pyplot as plt
+import matplotlib
 import numpy as np
+
+matplotlib.pyplot.ion()
 
 # Initialize some constant
 k = 9 * pow(10,9)
@@ -46,7 +50,8 @@ def find_V(x_array, q=pow(10,-9)): # Default q=1nC
 
 def find_E(x_array, q=pow(10,-9)): # Default q=1nC
     # Basically -(-(k*q)/x^2) but altogether gives +
-    return (k * q)/pow(x_array,2)
+    with np.errstate(divide='ignore', invalid='ignore'):
+      return (k * q)/pow(x_array,2)
 
 # Sample size
 n = 201
@@ -85,7 +90,7 @@ ax[1].set(title=r"$E_{x}\ vs\ x$",
           label=r"$E(x)= -\frac{k*q}{x^2}$")
 customize(ax[1])
 
-fig.show()
+# fig.show()
 ```
 
 ```{caution}
@@ -119,6 +124,7 @@ Use contradiction to prove this!
 
 ```{figure} ../../images/lab5/conductor.gif
 :scale: 110
+Electric field outside a conductor
 ```
 
 ```{seealso}
@@ -143,6 +149,7 @@ the direction of the current but not in the direction perpendicular to the curre
 
 ```{figure} ../../images/lab5/current_lab5.png
 :scale: 50
+The behind-the-scence of electric current
 ```
 
 - Now, those help answer the first part of the question. The seccond needs some imagination:

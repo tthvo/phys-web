@@ -25,5 +25,4 @@ kernelspec:
 
 ```{Warning}
 Please try your best to keep the rules. Otherwise, you and I are in trouble! Let's stay low.
-
 ```
