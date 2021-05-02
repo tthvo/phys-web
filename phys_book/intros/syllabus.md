@@ -27,16 +27,13 @@ This is a short and simplifed version of the official syllabus (created by Jamie
 - Lab Technician: **Jordan Andrews**
 - Email: physics.labs@ubc.ca
 
-
 ```{tip}
 I would suggest noting down the email! If you ever need an extesion or miss a lab, you must contact them.
-
 ```
 
 +++
 
 ## Grading Schemes
-
 
 - 16%&ensp;&emsp; Pre-lab Assignments<br>
 - 80%&ensp;&emsp;Weekly Reports<br>
@@ -47,11 +44,9 @@ It is different from term 1. Now, attendance is mandatory. Don't worry! I will f
 
 ```
 
-
-
-|Experiment     | Assignment                                         |Due                     | Marks|TotalMarks
+|Experiment     | Assignment                                         |Due                             |Marks                   |TotalMarks              |
 |:-------------:|:--------------------------------------------------:|:------------------------------:|:----------------------:|:----------------------:|
-| Laboratory #  | Pre-Lab #<br>Report Sheet #<br>Attendance of Lab # |11:59 PM Day before Lab #<br>11:59 PM Day before Lab #+1<br>Lab #|2<br>10<br>0.5|12.5
+| Laboratory #  | Pre-Lab #<br>Report Sheet #<br>Attendance of Lab # |11:59 PM Day before Lab #<br>11:59 PM Day before Lab #+1<br>Lab #|2<br>10<br>0.5|12.5|
 
 +++
 

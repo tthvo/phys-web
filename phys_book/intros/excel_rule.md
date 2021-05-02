@@ -101,3 +101,4 @@ If you have any questions about this or want to suggest another way, please let 
 ```{attention}
 I can see and filter your contributions. So, please give your best and do it for everyone! Not for grades!
 ```
+<!--Removed as required by the lab manager-->

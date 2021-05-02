@@ -33,7 +33,6 @@ You can the isntallation links to all supported OS below.
 
 If your computer is running on an older version of the above OS, you will need a password so please visit[Canvas](https://canvas.ubc.ca/courses/69484/pages/logger-pro-installation) to get them.
 
-
 ```{note} Linux User
 If you are using Linux distros, please let me know as soon as possible.
 ```
@@ -50,14 +49,12 @@ For complete instructions (step by step), please follow the official guide on [V
 
 If you install Logger Pro successfully, you should see a similar window to this one.
 
-![](../images/loggerpro.jpg)
+```{figure} ../images/loggerpro.jpg
+LoggerPro window
+```
 
 +++
 
 ```{caution}
 Please note the UI might be different from various Operation Systems.
-```
-
-```{code-cell} ipython3
-
 ```
