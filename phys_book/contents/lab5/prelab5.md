@@ -39,6 +39,7 @@ Relationship between electric potential and eletric field
 import matplotlib.pyplot as plt
 import numpy as np
 
+%matplotlib inline
 # Initialize some constant
 k = 9 * pow(10,9)
 def find_V(x_array, q=pow(10,-9)): # Default q=1nC
@@ -47,7 +48,8 @@ def find_V(x_array, q=pow(10,-9)): # Default q=1nC
 
 def find_E(x_array, q=pow(10,-9)): # Default q=1nC
     # Basically -(-(k*q)/x^2) but altogether gives +
-    return (k * q)/pow(x_array,2)
+    with np.errstate(divide='ignore', invalid='ignore'):
+      return (k * q)/pow(x_array,2)
 
 # Sample size
 n = 201
