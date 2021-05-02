@@ -171,7 +171,7 @@
   </a>
   <ul class="collapse-ul">
    <li class="toctree-l2">
-    <a class="reference internal" href="../contents/lab2/pre_lab2.html">
+    <a class="reference internal" href="../contents/lab2/prelab2.html">
      Pre Lab 2
     </a>
    </li>
@@ -301,11 +301,14 @@
 
     <div class="dropdown-buttons">
         <!-- ipynb file if we had a myst markdown file -->
-        
-        <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/intros/expectation.ipynb"><button type="button"
-                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+        <a class="dropdown-buttons"
+            href="../_sources/intros/expectation.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download notebook file" data-toggle="tooltip"
                 data-placement="left">.ipynb</button></a>
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/intros/expectation.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
         <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
             onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
@@ -322,6 +325,23 @@
                     class="fas fa-expand"></i></button></a>
 
         <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/thuanGIT/phys-web.git/master?urlpath=tree/intros/expectation.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="../_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
 
     </div>
 
@@ -437,8 +457,7 @@ It is your choice to decide your way to learn it.</p>
 <ul class="simple">
 <li><p>Whenever you are asked to <strong>explain</strong> a physics events, keep in mind these things.</p>
 <ul>
-<li><p>Your first thoughts of the matter is not always the ultimately correct one.</p></li>
-<li><p>Your second thoughts might be not.</p></li>
+<li><p>Your first thoughts of the matter is not always the ultimately correct one.- Your second thoughts might be not.</p></li>
 <li><p>Only when you think about it so many times, you will get the right idea. <strong>Dedication matters</strong>.</p></li>
 <li><p>Explain with all your understanding and efforts.</p></li>
 <li><p>Others’ idea might be right. You can use it but in your own words.</p></li>
@@ -513,7 +532,7 @@ It is your choice to decide your way to learn it.</p>
 </li>
 <li><p>Now, you are asking me: How do I practice these skills?</p>
 <ul>
-<li><p>It is everywhere. Labs are basically throwing you a bunch of data to solve.</p></li>
+<li><p>It is everywhere. Labs are basically throwing you a bunch of data to solve</p></li>
 <li><p>Choose a problem around you.</p></li>
 <li><p>Let’s say I record which time I go to sleep and do some analysis on it.</p>
 <ul>

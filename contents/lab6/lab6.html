@@ -171,7 +171,7 @@
   </a>
   <ul class="collapse-ul">
    <li class="toctree-l2">
-    <a class="reference internal" href="../lab2/pre_lab2.html">
+    <a class="reference internal" href="../lab2/prelab2.html">
      Pre Lab 2
     </a>
    </li>
@@ -301,11 +301,14 @@
 
     <div class="dropdown-buttons">
         <!-- ipynb file if we had a myst markdown file -->
-        
-        <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../../_sources/contents/lab6/lab6.ipynb"><button type="button"
-                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+        <a class="dropdown-buttons"
+            href="../../_sources/contents/lab6/lab6.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download notebook file" data-toggle="tooltip"
                 data-placement="left">.ipynb</button></a>
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../../_sources/contents/lab6/lab6.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
         <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
             onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
@@ -328,7 +331,7 @@
         aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
     <div class="dropdown-buttons">
         
-        <a class="binder-button" href="https://mybinder.org/v2/gh/thuanGIT/phys-web.git/master?urlpath=tree/contents/lab6/lab6.ipynb"><button type="button"
+        <a class="binder-button" href="https://mybinder.org/v2/gh/thuanGIT/phys-web.git/master?urlpath=tree/contents/lab6/lab6.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
                 data-placement="left"><img class="binder-button-logo"
                     src="../../_static/images/logo_binder.svg"
@@ -418,8 +421,9 @@
 <ul class="simple">
 <li><p>Let’s have a look at the setup first:</p></li>
 </ul>
-<div class="figure align-default">
+<div class="figure align-default" id="id1">
 <a class="reference internal image-reference" href="../../_images/demo_lab6.jpg"><img alt="../../_images/demo_lab6.jpg" src="../../_images/demo_lab6.jpg" style="width: 297.5px; height: 151.2px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 24 </span><span class="caption-text">Exmperimental setup</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
 <div class="margin sidebar">
 <p class="sidebar-title"></p>
@@ -498,7 +502,7 @@
 <span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
 
 <span class="c1"># Loading data set </span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;lab6.csv&quot;</span><span class="p">,</span> <span class="n">delimiter</span><span class="o">=</span><span class="s2">&quot;,&quot;</span><span class="p">)</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;../../data/lab6.csv&quot;</span><span class="p">,</span> <span class="n">delimiter</span><span class="o">=</span><span class="s2">&quot;,&quot;</span><span class="p">)</span>
 
 <span class="c1"># Setting for plot</span>
 <span class="n">sns</span><span class="o">.</span><span class="n">set_theme</span><span class="p">(</span><span class="s2">&quot;notebook&quot;</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">&quot;darkgrid&quot;</span><span class="p">,</span> <span class="n">font_scale</span><span class="o">=</span><span class="mf">1.3</span><span class="p">)</span>
@@ -520,7 +524,8 @@
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="../../_images/lab6_4_0.svg" src="../../_images/lab6_4_0.svg" /></div>
+<img alt="../../_images/lab6_4_0.png" src="../../_images/lab6_4_0.png" />
+</div>
 </div>
 </div>
 <div class="section" id="discussion">

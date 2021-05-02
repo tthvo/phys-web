@@ -171,7 +171,7 @@
   </a>
   <ul class="collapse-ul">
    <li class="toctree-l2">
-    <a class="reference internal" href="../lab2/pre_lab2.html">
+    <a class="reference internal" href="../lab2/prelab2.html">
      Pre Lab 2
     </a>
    </li>
@@ -301,11 +301,14 @@
 
     <div class="dropdown-buttons">
         <!-- ipynb file if we had a myst markdown file -->
-        
-        <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../../_sources/contents/lab7/lab7.ipynb"><button type="button"
-                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+        <a class="dropdown-buttons"
+            href="../../_sources/contents/lab7/lab7.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download notebook file" data-toggle="tooltip"
                 data-placement="left">.ipynb</button></a>
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../../_sources/contents/lab7/lab7.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
         <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
             onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
@@ -328,7 +331,7 @@
         aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
     <div class="dropdown-buttons">
         
-        <a class="binder-button" href="https://mybinder.org/v2/gh/thuanGIT/phys-web.git/master?urlpath=tree/contents/lab7/lab7.ipynb"><button type="button"
+        <a class="binder-button" href="https://mybinder.org/v2/gh/thuanGIT/phys-web.git/master?urlpath=tree/contents/lab7/lab7.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
                 data-placement="left"><img class="binder-button-logo"
                     src="../../_static/images/logo_binder.svg"
@@ -430,14 +433,16 @@
 </div>
 <div class="section" id="fluid-summary">
 <h2>Fluid Summary<a class="headerlink" href="#fluid-summary" title="Permalink to this headline">¶</a></h2>
-<div class="figure align-default">
+<div class="figure align-default" id="id1">
 <a class="reference internal image-reference" href="../../_images/fluid_note_lab7.jpeg"><img alt="../../_images/fluid_note_lab7.jpeg" src="../../_images/fluid_note_lab7.jpeg" style="width: 765.5px; height: 500.0px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 25 </span><span class="caption-text">A quick walk through Fluid Dynamics</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 <div class="section" id="analogous-relationship-with-electrical-circuit">
 <h2>Analogous relationship with electrical circuit<a class="headerlink" href="#analogous-relationship-with-electrical-circuit" title="Permalink to this headline">¶</a></h2>
-<div class="figure align-default">
+<div class="figure align-default" id="id2">
 <a class="reference internal image-reference" href="../../_images/analogy_lab7.jpg"><img alt="../../_images/analogy_lab7.jpg" src="../../_images/analogy_lab7.jpg" style="width: 778.4000000000001px; height: 256.8px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 26 </span><span class="caption-text">Comparison with electrical circuit</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -480,8 +485,9 @@
 <li><p>Note that the length of first video will be 31 minutes. And the others are approximately 5 minutes each.</p></li>
 <li><p>Let’s take a look at the setup first:</p></li>
 </ul>
-<div class="figure align-default">
+<div class="figure align-default" id="id3">
 <a class="reference internal image-reference" href="../../_images/setup_lab7.jpg"><img alt="../../_images/setup_lab7.jpg" src="../../_images/setup_lab7.jpg" style="width: 988.0px; height: 377.0px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 27 </span><span class="caption-text">Experimental setup</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 <div class="section" id="section-1-collection">
@@ -549,7 +555,7 @@
 <span class="n">dic</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">:</span><span class="s2">&quot;Small&quot;</span><span class="p">,</span><span class="mi">2</span><span class="p">:</span><span class="s2">&quot;Medium&quot;</span><span class="p">,</span><span class="mi">3</span><span class="p">:</span><span class="s2">&quot;Large&quot;</span><span class="p">}</span>
 <span class="n">l</span> <span class="o">=</span> <span class="nb">list</span><span class="p">()</span>
 <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">5</span><span class="p">):</span>
-    <span class="n">l</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;graph</span><span class="si">{</span><span class="n">i</span><span class="si">}</span><span class="s2">.csv&quot;</span><span class="p">,</span> <span class="n">delimiter</span><span class="o">=</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">assign</span><span class="p">(</span><span class="n">DiameterType</span><span class="o">=</span><span class="n">dic</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="k">if</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mi">4</span> <span class="k">else</span> <span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">))</span>
+    <span class="n">l</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;../../data/graph</span><span class="si">{</span><span class="n">i</span><span class="si">}</span><span class="s2">_lab7.csv&quot;</span><span class="p">,</span> <span class="n">delimiter</span><span class="o">=</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">assign</span><span class="p">(</span><span class="n">DiameterType</span><span class="o">=</span><span class="n">dic</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="k">if</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mi">4</span> <span class="k">else</span> <span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">))</span>
 
 <span class="n">d4</span><span class="o">=</span> <span class="n">l</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>
 <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">(</span><span class="n">l</span><span class="p">,</span><span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
@@ -629,8 +635,9 @@
 </div>
 <div class="section" id="error-calculation">
 <h2>Error Calculation<a class="headerlink" href="#error-calculation" title="Permalink to this headline">¶</a></h2>
-<div class="figure align-default">
+<div class="figure align-default" id="id4">
 <a class="reference internal image-reference" href="../../_images/Error_Note.png"><img alt="../../_images/Error_Note.png" src="../../_images/Error_Note.png" style="width: 765.0px; height: 500.0px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 28 </span><span class="caption-text">Error Calculation Practice</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
 </div>
 <div class="admonition attention">
 <p class="admonition-title">Attention</p>

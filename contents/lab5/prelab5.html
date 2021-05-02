@@ -171,7 +171,7 @@
   </a>
   <ul class="collapse-ul">
    <li class="toctree-l2">
-    <a class="reference internal" href="../lab2/pre_lab2.html">
+    <a class="reference internal" href="../lab2/prelab2.html">
      Pre Lab 2
     </a>
    </li>
@@ -301,11 +301,14 @@
 
     <div class="dropdown-buttons">
         <!-- ipynb file if we had a myst markdown file -->
-        
-        <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../../_sources/contents/lab5/prelab5.ipynb"><button type="button"
-                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+        <a class="dropdown-buttons"
+            href="../../_sources/contents/lab5/prelab5.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download notebook file" data-toggle="tooltip"
                 data-placement="left">.ipynb</button></a>
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../../_sources/contents/lab5/prelab5.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
         <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
             onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
@@ -328,7 +331,7 @@
         aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
     <div class="dropdown-buttons">
         
-        <a class="binder-button" href="https://mybinder.org/v2/gh/thuanGIT/phys-web.git/master?urlpath=tree/contents/lab5/prelab5.ipynb"><button type="button"
+        <a class="binder-button" href="https://mybinder.org/v2/gh/thuanGIT/phys-web.git/master?urlpath=tree/contents/lab5/prelab5.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
                 data-placement="left"><img class="binder-button-logo"
                     src="../../_static/images/logo_binder.svg"
@@ -395,8 +398,9 @@
 <ul class="simple">
 <li><p>The formula is derived as such:</p></li>
 </ul>
-<div class="figure align-default">
+<div class="figure align-default" id="id1">
 <a class="reference internal image-reference" href="../../_images/concept_lab5.jpg"><img alt="../../_images/concept_lab5.jpg" src="../../_images/concept_lab5.jpg" style="width: 378.8px; height: 239.60000000000002px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 21 </span><span class="caption-text">Relationship between electric potential and eletric field</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
 <ul class="simple">
 <li><p>Question: Why is this important? Answer: <strong>The electric field is the negative of the slope of potential vs distance graph!</strong></p></li>
@@ -405,7 +409,10 @@
 <div class="cell tag_hide-input docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">matplotlib</span>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+
+<span class="n">matplotlib</span><span class="o">.</span><span class="n">pyplot</span><span class="o">.</span><span class="n">ion</span><span class="p">()</span>
 
 <span class="c1"># Initialize some constant</span>
 <span class="n">k</span> <span class="o">=</span> <span class="mi">9</span> <span class="o">*</span> <span class="nb">pow</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">9</span><span class="p">)</span>
@@ -415,7 +422,8 @@
 
 <span class="k">def</span> <span class="nf">find_E</span><span class="p">(</span><span class="n">x_array</span><span class="p">,</span> <span class="n">q</span><span class="o">=</span><span class="nb">pow</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="o">-</span><span class="mi">9</span><span class="p">)):</span> <span class="c1"># Default q=1nC</span>
     <span class="c1"># Basically -(-(k*q)/x^2) but altogether gives +</span>
-    <span class="k">return</span> <span class="p">(</span><span class="n">k</span> <span class="o">*</span> <span class="n">q</span><span class="p">)</span><span class="o">/</span><span class="nb">pow</span><span class="p">(</span><span class="n">x_array</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
+    <span class="k">with</span> <span class="n">np</span><span class="o">.</span><span class="n">errstate</span><span class="p">(</span><span class="n">divide</span><span class="o">=</span><span class="s1">&#39;ignore&#39;</span><span class="p">,</span> <span class="n">invalid</span><span class="o">=</span><span class="s1">&#39;ignore&#39;</span><span class="p">):</span>
+      <span class="k">return</span> <span class="p">(</span><span class="n">k</span> <span class="o">*</span> <span class="n">q</span><span class="p">)</span><span class="o">/</span><span class="nb">pow</span><span class="p">(</span><span class="n">x_array</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
 
 <span class="c1"># Sample size</span>
 <span class="n">n</span> <span class="o">=</span> <span class="mi">201</span>
@@ -454,12 +462,16 @@
           <span class="n">label</span><span class="o">=</span><span class="sa">r</span><span class="s2">&quot;$E(x)= -\frac{k*q}{x^2}$&quot;</span><span class="p">)</span>
 <span class="n">customize</span><span class="p">(</span><span class="n">ax</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
 
-<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+<span class="c1"># fig.show()</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="../../_images/prelab5_2_0.svg" src="../../_images/prelab5_2_0.svg" /></div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7fa4c833a250&gt;
+</pre></div>
+</div>
+<img alt="../../_images/prelab5_2_1.png" src="../../_images/prelab5_2_1.png" />
+</div>
 </div>
 <div class="admonition caution">
 <p class="admonition-title">Caution</p>
@@ -497,8 +509,9 @@ surface, nor within its bulk. (Hint: think about the forces on a free to move ch
 <li><p>Now, the question should be clear. Answering this will also give you an idea why the electric field is only available at the surface and perpendicular to the surface.</p></li>
 <li><p>A picture for you:</p></li>
 </ul>
-<div class="figure align-default">
+<div class="figure align-default" id="id2">
 <a class="reference internal image-reference" href="../../_images/conductor.gif"><img alt="../../_images/conductor.gif" src="../../_images/conductor.gif" style="width: 563.2px; height: 227.70000000000002px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 22 </span><span class="caption-text">Electric field outside a conductor</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
 <div class="admonition seealso">
 <p class="admonition-title">See also</p>
@@ -524,8 +537,9 @@ the direction of the current but not in the direction perpendicular to the curre
 </li>
 <li><p>A picture for you to understand what I am saying:</p></li>
 </ul>
-<div class="figure align-default">
+<div class="figure align-default" id="id3">
 <a class="reference internal image-reference" href="../../_images/current_lab5.png"><img alt="../../_images/current_lab5.png" src="../../_images/current_lab5.png" style="width: 640.0px; height: 254.5px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 23 </span><span class="caption-text">The behind-the-scence of electric current</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
 </div>
 <ul class="simple">
 <li><p>Now, those help answer the first part of the question. The seccond needs some imagination:</p>

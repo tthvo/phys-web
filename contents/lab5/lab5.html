@@ -171,7 +171,7 @@
   </a>
   <ul class="collapse-ul">
    <li class="toctree-l2">
-    <a class="reference internal" href="../lab2/pre_lab2.html">
+    <a class="reference internal" href="../lab2/prelab2.html">
      Pre Lab 2
     </a>
    </li>
@@ -301,11 +301,14 @@
 
     <div class="dropdown-buttons">
         <!-- ipynb file if we had a myst markdown file -->
-        
-        <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../../_sources/contents/lab5/lab5.ipynb"><button type="button"
-                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+        <a class="dropdown-buttons"
+            href="../../_sources/contents/lab5/lab5.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download notebook file" data-toggle="tooltip"
                 data-placement="left">.ipynb</button></a>
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../../_sources/contents/lab5/lab5.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
         <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
             onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
@@ -328,7 +331,7 @@
         aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
     <div class="dropdown-buttons">
         
-        <a class="binder-button" href="https://mybinder.org/v2/gh/thuanGIT/phys-web.git/master?urlpath=tree/contents/lab5/lab5.ipynb"><button type="button"
+        <a class="binder-button" href="https://mybinder.org/v2/gh/thuanGIT/phys-web.git/master?urlpath=tree/contents/lab5/lab5.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
                 data-placement="left"><img class="binder-button-logo"
                     src="../../_static/images/logo_binder.svg"
@@ -451,8 +454,9 @@
 <li><p>Then, you need to draw <strong>Electric field Lines</strong> given the equipotential lines.</p></li>
 <li><p>Here a demo for you to follow:</p></li>
 </ul>
-<div class="figure align-default">
+<div class="figure align-default" id="id1">
 <a class="reference internal image-reference" href="../../_images/part1.png"><img alt="../../_images/part1.png" src="../../_images/part1.png" style="width: 715.0px; height: 355.0px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 18 </span><span class="caption-text">Electric Dipole Simulation</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
@@ -473,8 +477,9 @@
 <li><p>Make sure you follow the required steps (not necessarily exact). In this case, it is <span class="math notranslate nohighlight">\(\pm1(V)\)</span>.</p></li>
 <li><p>Then, draw the <strong>Electric field lines</strong>. Here is a demo for you:</p></li>
 </ul>
-<div class="figure align-default">
+<div class="figure align-default" id="id2">
 <a class="reference internal image-reference" href="../../_images/part2.png"><img alt="../../_images/part2.png" src="../../_images/part2.png" style="width: 710.9399999999999px; height: 399.75px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 19 </span><span class="caption-text">Like charges simulations</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
 <div class="admonition caution">
 <p class="admonition-title">Caution</p>
@@ -501,8 +506,9 @@
 <ul class="simple">
 <li><p>Here is demo of the setup for you to follow:</p></li>
 </ul>
-<div class="figure align-default">
+<div class="figure align-default" id="id3">
 <a class="reference internal image-reference" href="../../_images/part3.png"><img alt="../../_images/part3.png" src="../../_images/part3.png" style="width: 705.6px; height: 390.0px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 20 </span><span class="caption-text">Line of same charges</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
 </div>
 <div class="section" id="section-1-find-the-charge-per-unit-length">
 <h3>Section 1: Find the charge per unit length λ<a class="headerlink" href="#section-1-find-the-charge-per-unit-length" title="Permalink to this headline">¶</a></h3>
@@ -510,7 +516,7 @@
 <li><p>You have the equation:</p></li>
 </ul>
 <div class="math notranslate nohighlight">
-\[\lambda = \frac{n * q}{L} (C/m)\]</div>
+\[\lambda = \frac{n  q}{L} (C/m)\]</div>
 <p>where:</p>
 <ul class="simple">
 <li><p>n (number of charges).</p></li>
@@ -567,10 +573,10 @@
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
 
 <span class="c1"># Loading dada</span>
-<span class="n">part3_2</span> <span class="o">=</span> <span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;part3_2.csv&quot;</span><span class="p">,</span> <span class="n">delimiter</span><span class="o">=</span><span class="s2">&quot;,&quot;</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="nb">float</span><span class="p">)</span>
+<span class="n">part3_2</span> <span class="o">=</span> <span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;../../data/part3_2_lab5.csv&quot;</span><span class="p">,</span> <span class="n">delimiter</span><span class="o">=</span><span class="s2">&quot;,&quot;</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="nb">float</span><span class="p">)</span>
              <span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;x(m)&quot;</span><span class="p">:</span><span class="s2">&quot;x&quot;</span><span class="p">,</span> <span class="s2">&quot;Vx(V)&quot;</span><span class="p">:</span><span class="s2">&quot;Vx&quot;</span><span class="p">})</span>
           <span class="p">)</span>
-<span class="n">part3_3</span> <span class="o">=</span> <span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;part3_3.csv&quot;</span><span class="p">,</span> <span class="n">delimiter</span><span class="o">=</span><span class="s2">&quot;,&quot;</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="nb">float</span><span class="p">)</span>
+<span class="n">part3_3</span> <span class="o">=</span> <span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;../../data/part3_3_lab5.csv&quot;</span><span class="p">,</span> <span class="n">delimiter</span><span class="o">=</span><span class="s2">&quot;,&quot;</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="nb">float</span><span class="p">)</span>
              <span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;1/x(1/m)&quot;</span><span class="p">:</span><span class="s2">&quot;1/x&quot;</span><span class="p">,</span> <span class="s2">&quot;Ex(V/m)&quot;</span><span class="p">:</span><span class="s2">&quot;Ex&quot;</span><span class="p">})</span>
           <span class="p">)</span>
 <span class="c1"># Settings</span>
@@ -607,7 +613,8 @@
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="../../_images/lab5_5_0.svg" src="../../_images/lab5_5_0.svg" /></div>
+<img alt="../../_images/lab5_5_0.png" src="../../_images/lab5_5_0.png" />
+</div>
 </div>
 </div>
 <div class="section" id="section-3-find-estimated-potential-vx-v-at-a-point">
@@ -626,7 +633,7 @@
 <li><p>Now, compare the slope to your calculate Vx by extracting constant from this formula:</p></li>
 </ul>
 <div class="math notranslate nohighlight">
-\[E = \frac{\lambda}{2 * \pi * \varepsilon_0 * r}\]</div>
+\[E = \frac{\lambda}{2 \pi \varepsilon_0 r}\]</div>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
 <p>What does y axis represent and what does x axis represent? Also, <span class="math notranslate nohighlight">\(\lambda\)</span> is found in section 1.</p>
@@ -646,7 +653,8 @@
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="../../_images/lab5_7_0.svg" src="../../_images/lab5_7_0.svg" /></div>
+<img alt="../../_images/lab5_7_0.png" src="../../_images/lab5_7_0.png" />
+</div>
 </div>
 <div class="admonition caution">
 <p class="admonition-title">Caution</p>

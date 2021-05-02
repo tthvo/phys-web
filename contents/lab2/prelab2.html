@@ -301,11 +301,14 @@
 
     <div class="dropdown-buttons">
         <!-- ipynb file if we had a myst markdown file -->
-        
-        <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../../_sources/contents/lab2/pre_lab2.ipynb"><button type="button"
-                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+        <a class="dropdown-buttons"
+            href="../../_sources/contents/lab2/prelab2.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download notebook file" data-toggle="tooltip"
                 data-placement="left">.ipynb</button></a>
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../../_sources/contents/lab2/prelab2.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
         <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
             onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
@@ -328,7 +331,7 @@
         aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
     <div class="dropdown-buttons">
         
-        <a class="binder-button" href="https://mybinder.org/v2/gh/thuanGIT/phys-web.git/master?urlpath=tree/contents/lab2/pre_lab2.ipynb"><button type="button"
+        <a class="binder-button" href="https://mybinder.org/v2/gh/thuanGIT/phys-web.git/master?urlpath=tree/contents/lab2/prelab2.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
                 data-placement="left"><img class="binder-button-logo"
                     src="../../_static/images/logo_binder.svg"
@@ -375,7 +378,22 @@
 <h1>Pre Lab 2<a class="headerlink" href="#pre-lab-2" title="Permalink to this headline">¶</a></h1>
 <p>Help on pre lab 2 is here</p>
 <hr class="docutils" />
-<div class="cell tag_remove-input docutils container">
+<div class="cell tag_hide-input docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">PIL</span> <span class="kn">import</span> <span class="n">Image</span>
+<span class="kn">from</span> <span class="nn">myst_nb</span> <span class="kn">import</span> <span class="n">glue</span>
+
+<span class="n">im1</span> <span class="o">=</span> <span class="n">Image</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="s2">&quot;../../images/lab2/one_anti.jpg&quot;</span><span class="p">)</span>
+<span class="n">im2</span><span class="o">=</span><span class="n">Image</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="s2">&quot;../../images/lab2/two_anti.jpg&quot;</span><span class="p">)</span>
+<span class="n">im3</span><span class="o">=</span><span class="n">Image</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="s2">&quot;../../images/lab2/three_anti.jpg&quot;</span><span class="p">)</span>
+<span class="n">graph</span><span class="o">=</span><span class="n">Image</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="s2">&quot;../../images/lab2/pre_lab2_part2.jpg&quot;</span><span class="p">)</span>
+<span class="n">glue</span><span class="p">(</span><span class="s1">&#39;1_anti&#39;</span><span class="p">,</span><span class="n">im1</span><span class="p">,</span> <span class="n">display</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">glue</span><span class="p">(</span><span class="s1">&#39;2_anti&#39;</span><span class="p">,</span><span class="n">im2</span><span class="p">,</span><span class="n">display</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">glue</span><span class="p">(</span><span class="s1">&#39;3_anti&#39;</span><span class="p">,</span><span class="n">im3</span><span class="p">,</span><span class="n">display</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">glue</span><span class="p">(</span><span class="s1">&#39;graph&#39;</span><span class="p">,</span> <span class="n">graph</span><span class="p">,</span><span class="n">display</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
 <div class="cell_output docutils container">
 </div>
 </div>
@@ -393,9 +411,9 @@
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td class="text-align:center"><p><span class="pasted-inline"><img alt="../../_images/pre_lab2_1_0.png" src="../../_images/pre_lab2_1_0.png" /></span></p></td>
-<td class="text-align:center"><p><span class="pasted-inline"><img alt="../../_images/pre_lab2_1_1.png" src="../../_images/pre_lab2_1_1.png" /></span></p></td>
-<td class="text-align:center"><p><span class="pasted-inline"><img alt="../../_images/pre_lab2_1_2.png" src="../../_images/pre_lab2_1_2.png" /></span></p></td>
+<tr class="row-even"><td class="text-align:center"><p><code class="docutils literal notranslate"><span class="pre">{glue:figure}</span> <span class="pre">1_anti</span> <span class="pre">One</span> <span class="pre">Antinode</span></code></p></td>
+<td class="text-align:center"><p><code class="docutils literal notranslate"><span class="pre">{glue:figure}</span> <span class="pre">2_anti</span> <span class="pre">Two</span> <span class="pre">Antinodes</span></code></p></td>
+<td class="text-align:center"><p><code class="docutils literal notranslate"><span class="pre">{glue:figure}</span> <span class="pre">3_anti</span> <span class="pre">Three</span> <span class="pre">Antinodes</span></code></p></td>
 </tr>
 </tbody>
 </table>
@@ -408,7 +426,7 @@
 <h2>Part 2<a class="headerlink" href="#part-2" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p>This one requires a little bit of algebra <font color= 'red'><b>(getting yourself really cuz its gonna get messy!)</b></font></p></li>
-<li><p>We can summarize from the graph <span class="pasted-inline"><img alt="../../_images/pre_lab2_1_3.png" src="../../_images/pre_lab2_1_3.png" /></span>:</p></li>
+<li><p>We can summarize from the graph <span class="pasted-inline"><img alt="../../_images/prelab2_1_3.png" src="../../_images/prelab2_1_3.png" /></span>:</p></li>
 </ul>
 <div class="sphinx-bs container pb-4 docutils">
 <div class="row docutils">
@@ -418,10 +436,11 @@
 <p class="card-text">Graph</p>
 </div>
 <div class="card-body docutils">
-<div class="figure align-default" style="width: 300px">
+<div class="figure align-default" id="id1" style="width: 300px">
 <div class="cell_output docutils container">
-<img alt="../../_images/pre_lab2_1_3.png" src="../../_images/pre_lab2_1_3.png" />
+<img alt="../../_images/prelab2_1_3.png" src="../../_images/prelab2_1_3.png" />
 </div>
+<p class="caption"><span class="caption-number">Fig. 10 </span><span class="caption-text">Mass vs inverse squared of n plot</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 </div>

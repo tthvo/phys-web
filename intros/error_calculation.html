@@ -171,7 +171,7 @@
   </a>
   <ul class="collapse-ul">
    <li class="toctree-l2">
-    <a class="reference internal" href="../contents/lab2/pre_lab2.html">
+    <a class="reference internal" href="../contents/lab2/prelab2.html">
      Pre Lab 2
     </a>
    </li>
@@ -301,11 +301,14 @@
 
     <div class="dropdown-buttons">
         <!-- ipynb file if we had a myst markdown file -->
-        
-        <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/intros/error_calculation.ipynb"><button type="button"
-                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+        <a class="dropdown-buttons"
+            href="../_sources/intros/error_calculation.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download notebook file" data-toggle="tooltip"
                 data-placement="left">.ipynb</button></a>
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/intros/error_calculation.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
         <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
             onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
@@ -322,6 +325,23 @@
                     class="fas fa-expand"></i></button></a>
 
         <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/thuanGIT/phys-web.git/master?urlpath=tree/intros/error_calculation.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="../_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
 
     </div>
 
@@ -387,16 +407,16 @@
 <div class="section" id="rules-with-errors">
 <h2>Rules with errors<a class="headerlink" href="#rules-with-errors" title="Permalink to this headline">¶</a></h2>
 <div class="tabbed-set docutils">
-<input checked="checked" id="a927b7c9-ba60-441e-821a-ada7c9da680b" name="6ffcef22-d081-4542-8465-b1b136eabb5f" type="radio">
-</input><label class="tabbed-label" for="a927b7c9-ba60-441e-821a-ada7c9da680b">
+<input checked="checked" id="7797f304-4264-49b6-a1ee-54dd2ab264fd" name="479d15f5-22e9-4740-8431-4946c345c830" type="radio">
+</input><label class="tabbed-label" for="7797f304-4264-49b6-a1ee-54dd2ab264fd">
 Addition Rule</label><div class="tabbed-content docutils">
 <p style="font-size:25px"><b>Explanation</b></p>
 <p>The maximum possible error  of  a  sum  or  difference  is  calculated  by  adding  the  absolute  errors  in  the  quantities  to  be added or subtracted.</p>
 <div class="math notranslate nohighlight">
 \[\delta{A+B} = \delta{A} + \delta{B}\]</div>
 </div>
-<input id="56595569-c540-49ae-a021-1e0bc9802bef" name="6ffcef22-d081-4542-8465-b1b136eabb5f" type="radio">
-</input><label class="tabbed-label" for="56595569-c540-49ae-a021-1e0bc9802bef">
+<input id="a215ddc6-7322-47fb-976e-9ad8de0a580c" name="479d15f5-22e9-4740-8431-4946c345c830" type="radio">
+</input><label class="tabbed-label" for="a215ddc6-7322-47fb-976e-9ad8de0a580c">
 Product Rule</label><div class="tabbed-content docutils">
 <p style="font-size:25px"><b>Explanation</b></p>
 <p>The relative maximum possible error of a product or quotient is equal to the sum of the relativeerrors in the quantities being multiplied or divided.</p>
@@ -405,8 +425,8 @@ Product Rule</label><div class="tabbed-content docutils">
 \frac{\delta{(AB)}}{AB} = \frac{\delta{(A/B)}}{A/B}= (\frac{\delta{A}}{A} + \frac{\delta{B}}{B})
 \]</div>
 </div>
-<input id="8090ef93-6884-4fdc-818e-3ff35ef8f867" name="6ffcef22-d081-4542-8465-b1b136eabb5f" type="radio">
-</input><label class="tabbed-label" for="8090ef93-6884-4fdc-818e-3ff35ef8f867">
+<input id="54ce0301-d8a1-4e24-930a-ec7424d7b4fd" name="479d15f5-22e9-4740-8431-4946c345c830" type="radio">
+</input><label class="tabbed-label" for="54ce0301-d8a1-4e24-930a-ec7424d7b4fd">
 Power Rule</label><div class="tabbed-content docutils">
 <p style="font-size:25px"><b>Explanation</b></p>
 <p>If a number x is raised to some power n then the relative error in the result is <span class="math notranslate nohighlight">\(|n|\)</span> times the relative error in x.</p>
