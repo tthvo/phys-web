@@ -51,7 +51,7 @@ Force probe is zeroed at the point of equilibrium for each case.
   - Here is an example:
 
 ```{figure} ../../images/lab1/lab1_period.jpg
-Same findings of oscillation period.
+Same findings of oscillation period
 ```
 
 ```{caution}
@@ -67,7 +67,7 @@ Here my index goes from 0. So there is a total of 12 ticks.
 - Here is a demo for you to follow:
 
 ```{figure} ../../images/lab1/lab1_part1_4.jpg
-Sketches of displacement and velocity plots.
+Sketches of displacement and velocity plots
 ```
 
 ```{tip}
@@ -92,13 +92,12 @@ Which equation does not assume anything but rather use only data on from generat
 - Below is the picture of the graph that you want to take the period from.
 
 ```{figure} ../../images/lab1/lab1_damp.jpg
-Damped Oscillation Demo.
+Damped Oscillation Demo
 ```
 
 ```{tip}
 Why can we do that? Basically, the system energy is lost (max y-value is smaller with time). However, your frequency is not affected. Thus, angular frequency $\omega$ is not.
 ```
-
 
 ## Data Collection and Analysis
 

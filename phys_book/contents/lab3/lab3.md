@@ -47,7 +47,7 @@ glue('quarter', quarter,display=False)
 
 |Midpoint|A quarter length|
 |:---:|:---:|
-|```{glue:figure} mid Holding at midpoint.```|```{glue:} quarter Holding at a quarter from end.```|
+|```{glue:figure} mid Holding at midpoint```|```{glue:} quarter Holding at a quarter from end```|
 
 - Remember in pre lab that holding a point on the rod is forcing a node there?
 
@@ -80,7 +80,7 @@ Use your drawing in pre lab 3.
 
 ```{figure} ../../images/lab3/fork_lab3.png
 :scale: 50
-Fork experiement setup.
+Fork experiement setup
 ```
 
 ### Section 1: Sketch the motion of the fork
@@ -91,7 +91,7 @@ The fork is the U-shape thingy!
 ```
 ````
 
-- Just draw what you observe! 
+- Just draw what you observe!
 
 - I would suggest using dash lines to represent their positions at previous times.
 
@@ -106,7 +106,7 @@ The fork is the U-shape thingy!
 
 ```{figure} ../../images/lab3/FFT_lab3.png
 :scale: 60
-Sample FFT plot.
+Sample FFT plot
 ```
 
 ```{tip}

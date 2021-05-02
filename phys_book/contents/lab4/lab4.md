@@ -36,7 +36,7 @@ ___
 - Before we go any further, it is helpful to have a picture of the experiment setup.
 
 ```{figure} ../../images/lab4/setup_part1_lab4.jpg
-Experimental setup (part 1).
+Experimental setup (part 1)
 ```
 
 - Note that you will need to use **7 pieces** of tape in total.
@@ -85,7 +85,7 @@ For drawing the tape, you will have to show me which tape is negatively charged 
 
 ```{figure} ../../images/lab4/setup_part2_lab4.jpg
 :scale: 50%
-Experimenal setup (Part 2).
+Experimenal setup (Part 2)
 ```
 
 ### Setup instructions
@@ -96,7 +96,7 @@ Experimenal setup (Part 2).
 
 ```{figure} ../../images/lab4/part2_lab4.jpg
 :scale: 50%
-Logger Pro demo.
+Logger Pro demo
 ```
 
 ```{caution}

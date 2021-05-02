@@ -89,6 +89,7 @@ The right hand rule works a little different for moving negative charge!
 
 ```{figure} ../../images/lab8/part6_prelab8.png
 :scale: 25
+Behavior of opposite charges in magnetic field
 ```
 
 ```{tip}
