@@ -74,7 +74,7 @@ These are two different cases corresponding your answer in Part 1. One of them i
 
 |Antinodes at 2 ends|Nodes at two ends|
 |:---:|:---:|
-|```{glue:figure} antinode Antinode at 2 ends```|```{glue:figure} node Nodes at 2 ends```|
+|{glue:}`antinode`|{glue:}`node`|
 
 +++
 
