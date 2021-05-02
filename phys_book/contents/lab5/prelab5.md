@@ -37,9 +37,11 @@ Relationship between electric potential and eletric field
 :tags: [hide-input]
 
 import matplotlib.pyplot as plt
+import matplotlib
 import numpy as np
 
-%matplotlib inline
+matplotlib.pyplot.ion()
+
 # Initialize some constant
 k = 9 * pow(10,9)
 def find_V(x_array, q=pow(10,-9)): # Default q=1nC
@@ -88,7 +90,7 @@ ax[1].set(title=r"$E_{x}\ vs\ x$",
           label=r"$E(x)= -\frac{k*q}{x^2}$")
 customize(ax[1])
 
-fig.show()
+# fig.show()
 ```
 
 ```{caution}
